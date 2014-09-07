@@ -28,13 +28,8 @@ namespace ConnectedData.Web.DependencyResolution {
             
             return new Container(
                 c => {
-                    //c.For<ApplicationUserManager>().Use(HttpContextBase.GetOwinContext().GetUserManager<ApplicationUserManager>());
-                    //c.For<ApplicationSignInManager>().Use(HttpContext.GetOwninContext().)
-                    //c.For<Microsoft.AspNet.Identity.IUserStore<ApplicationUser>>().Use<Microsoft.AspNet.Identity.EntityFramework.UserStore<ApplicationUser>>();
-                    //ApplicationUserManager userManager, ApplicationSignInManager signInManager )
-                    c.For<System.Data.Entity.DbContext>().Use(() => new ApplicationDbContext());
                     c.AddRegistry<DefaultRegistry>();
-                    c.ForSingletonOf<IMediator>().Use(Bootstrapper.Mediator);
+                    c.For<IMediator>().Use(Bootstrapper.Mediator);
                 }
                 
             );
