@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{99560538-3871-4EC8-AC4C-5E0323292EDB}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{8EBD5BAD-13D0-40D9-B034-16C9990BCAB8}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\ConnectedDataHoustonTechFest-WAWS-dev.json = PublishScripts\Configurations\ConnectedDataHoustonTechFest-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedData.Domain", "ConnectedData.Domain\ConnectedData.Domain.csproj", "{438F94F4-0EA5-4D2C-A022-786A69155C47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedData.Web", "ConnectedData.Web\ConnectedData.Web.csproj", "{BEBB7485-38D4-4FAF-9C6B-2918A469E7DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedData.Web.Tests", "ConnectedData.Web.Tests\ConnectedData.Web.Tests.csproj", "{C95FF5AD-BB08-4720-91BA-6367EB582EC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedData.LinkedIn", "ConnectedData.LinkedIn\ConnectedData.LinkedIn.csproj", "{2A02FB83-BF2B-461A-8455-0213F078B602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedData.LinkedIn.Tests", "ConnectedData.LinkedIn.Tests\ConnectedData.LinkedIn.Tests.csproj", "{B05E6C06-68AF-452A-9D4B-454CDB8D338F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedData.GraphDB", "ConnectedData.GraphDB\ConnectedData.GraphDB.csproj", "{821EE500-80EE-4D20-9EC1-3347D21924FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedData.AcceptanceTests", "ConnectedData.AcceptanceTests\ConnectedData.AcceptanceTests.csproj", "{248E0659-A887-4A52-8DE8-32F9A7DB2E93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{86ABD97D-B22B-4A04-A2B6-A792340CB3B1}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{438F94F4-0EA5-4D2C-A022-786A69155C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{438F94F4-0EA5-4D2C-A022-786A69155C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{438F94F4-0EA5-4D2C-A022-786A69155C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{438F94F4-0EA5-4D2C-A022-786A69155C47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEBB7485-38D4-4FAF-9C6B-2918A469E7DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEBB7485-38D4-4FAF-9C6B-2918A469E7DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEBB7485-38D4-4FAF-9C6B-2918A469E7DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEBB7485-38D4-4FAF-9C6B-2918A469E7DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C95FF5AD-BB08-4720-91BA-6367EB582EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C95FF5AD-BB08-4720-91BA-6367EB582EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C95FF5AD-BB08-4720-91BA-6367EB582EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C95FF5AD-BB08-4720-91BA-6367EB582EC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A02FB83-BF2B-461A-8455-0213F078B602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A02FB83-BF2B-461A-8455-0213F078B602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A02FB83-BF2B-461A-8455-0213F078B602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A02FB83-BF2B-461A-8455-0213F078B602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B05E6C06-68AF-452A-9D4B-454CDB8D338F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B05E6C06-68AF-452A-9D4B-454CDB8D338F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B05E6C06-68AF-452A-9D4B-454CDB8D338F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B05E6C06-68AF-452A-9D4B-454CDB8D338F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821EE500-80EE-4D20-9EC1-3347D21924FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821EE500-80EE-4D20-9EC1-3347D21924FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821EE500-80EE-4D20-9EC1-3347D21924FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821EE500-80EE-4D20-9EC1-3347D21924FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{248E0659-A887-4A52-8DE8-32F9A7DB2E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{248E0659-A887-4A52-8DE8-32F9A7DB2E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{248E0659-A887-4A52-8DE8-32F9A7DB2E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{248E0659-A887-4A52-8DE8-32F9A7DB2E93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8EBD5BAD-13D0-40D9-B034-16C9990BCAB8} = {99560538-3871-4EC8-AC4C-5E0323292EDB}
+	EndGlobalSection
+EndGlobal
