@@ -3,17 +3,18 @@ using ConnectedData.Web.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
+using System.Threading;
 using System.Web;
 using System.Web.Mvc;
 
 namespace ConnectedData.Web.Controllers
 {
-    public class InterestController : Controller
+    
+    public class InterestController : AuthenticatedControllerBase
     {
-        private readonly ShortBus.IMediator _mediator;
-        public InterestController(ShortBus.IMediator mediator)
+        public InterestController(ShortBus.IMediator mediator) : base (mediator)
         {
-            _mediator = mediator;
         }
 
         // GET: Interest
@@ -33,6 +34,8 @@ namespace ConnectedData.Web.Controllers
         [HttpPost]
         public ActionResult Add(InterestViewModel interest)
         {
+            
+
             //var response = _mediator.Send(new AddInterestToUser("3", interest));
             return RedirectToActionPermanent("Index");
         }

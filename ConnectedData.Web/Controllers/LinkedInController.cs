@@ -22,7 +22,6 @@ namespace ConnectedData.Web.Controllers
             return View();
         }
 
-        [HttpPost]
         public ActionResult RetrieveData()
         {
             //mediate a call to linked in to get data
