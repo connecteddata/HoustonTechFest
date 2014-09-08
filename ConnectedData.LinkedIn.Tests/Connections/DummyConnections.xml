@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<person>
+  <first-name>Kevin</first-name>
+  <last-name>Moormann</last-name>
+  <headline>Manager at Pariveda Solutions</headline>
+  <skills total="25">
+    <skill>
+      <id>1</id>
+      <skill>
+        <name>ASP.NET</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>5</id>
+      <skill>
+        <name>F#</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>6</id>
+      <skill>
+        <name>ASP.NET MVC</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>7</id>
+      <skill>
+        <name>SSIS</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>9</id>
+      <skill>
+        <name>Salesforce.com</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>10</id>
+      <skill>
+        <name>Force.com</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>11</id>
+      <skill>
+        <name>C#</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>12</id>
+      <skill>
+        <name>SQL Server</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>13</id>
+      <skill>
+        <name>Agile Project Management</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>14</id>
+      <skill>
+        <name>Continuous Integration</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>17</id>
+      <skill>
+        <name>Microsoft SQL Server</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>21</id>
+      <skill>
+        <name>DAX</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>22</id>
+      <skill>
+        <name>MDX</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>27</id>
+      <skill>
+        <name>Business Intelligence</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>28</id>
+      <skill>
+        <name>.NET</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>29</id>
+      <skill>
+        <name>Process Improvement</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>30</id>
+      <skill>
+        <name>T-SQL</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>31</id>
+      <skill>
+        <name>ETL</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>32</id>
+      <skill>
+        <name>Integration</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>33</id>
+      <skill>
+        <name>SharePoint</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>34</id>
+      <skill>
+        <name>SSRS</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>35</id>
+      <skill>
+        <name>SQL</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>36</id>
+      <skill>
+        <name>Web Applications</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>37</id>
+      <skill>
+        <name>Cloud Computing</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>38</id>
+      <skill>
+        <name>Testing</name>
+      </skill>
+    </skill>
+  </skills>
+  <educations total="2">
+    <education>
+      <id>12077960</id>
+      <school-name>University of Houston</school-name>
+      <degree>Masters</degree>
+      <field-of-study>Electrical Engineering</field-of-study>
+      <start-date>
+        <year>2006</year>
+      </start-date>
+      <end-date>
+        <year>2008</year>
+      </end-date>
+    </education>
+    <education>
+      <id>10304475</id>
+      <school-name>South Dakota School of Mines and Technology</school-name>
+      <activities>IEEE, Tau Beta Pi, Eta Kappa Nu, Peer Advising, Basketball</activities>
+      <degree>Bachelor of Science</degree>
+      <field-of-study>Computer Engineering</field-of-study>
+      <start-date>
+        <year>2000</year>
+      </start-date>
+      <end-date>
+        <year>2004</year>
+      </end-date>
+    </education>
+  </educations>
+  <positions total="6">
+    <position>
+      <id>271970234</id>
+      <title>Manager</title>
+      <summary>Project Manager/Solution Architect, Retail Energy Services Company
+Led a team to design and develop a solution to drive a strategic sales channel’s marketing campaigns through an audited and controlled process. The system was comprised of a SharePoint front end integrated with a SQL Server database via SSIS packages and ETL processes.  SharePoint lists and user experience provided the sales team insight into prospect categorization and segmentation. Prospects were classified systematically via interaction with existing customer data stores, U.S. Census Bureau geographic shape data (municipal, village, borough, and county boundaries), Bing Maps API, and application of business rules including geometric segmentation via SQL Server’s spatial data capabilities and implementation of the Open Geospatial Consortium methods.
+
+Project Manager/Solution Architect, Oil and Gas Drilling Resources firm
+Architected a solution and led a team of developers that transformed data from the financial component of Oracle EBS to a Microsoft SQL Server 2012 Business Intelligence Semantic Model.  Providing both a Tabular and Multidimensional Analysis Services cube, along with SSRS reports and PowerView data visualizations, financial controllers at the firm were able to visualize, browse, and analyze line item detail in a mosaic and once seemly impossible ways.  The analysis completed from this tool allowed the client to discover $500K in unrecognized revenue, unveiled timing issues with receipt of costs and revenue recognition.  In addition it increased auditing accuracy, highlighted issues with data quality and allowed the firm to govern operations of under-performing warehouses.</summary>
+      <start-date>
+        <year>2012</year>
+        <month>4</month>
+      </start-date>
+      <is-current>true</is-current>
+      <company>
+        <id>18355</id>
+        <name>Pariveda Solutions</name>
+      </company>
+    </position>
+    <position>
+      <id>340708994</id>
+      <title>Associate II</title>
+      <summary>Project Manager
+Developed a SharePoint 2010 roadmap for an international agricultural company.  Based on client and user interviews, business needs as well as long term objectives, provided a roadmap with architectural, organizational, and content considerations.
+
+Team Lead Solution Architect
+Designed, developed, and released a Microsoft SQL Server Analysis Services (SSAS) Multidimensional Cube for Retail Energy Electric Pricing.  Different data sources were synchronized and transformed into a model providing energy traders an analytic tool on hourly pricing models at varied geographic hubs across the nation.  Both real-time and day-ahead markets were captured with incremental daily loading after an initial historical data load.  Traders were able to quickly analyze historic pricing trends and project future price curves reducing risk exposure and allowing better pricing models for customers.
+
+Developer and architectural consultant providing testing, validation and improvements for ETL subsystem of a revolutionary accounting plan for a deregulated retail energy provider that improved the timeliness of the monthly book closing by over 90% from 45 days to 3 days.  System interacted with disparate source data across different technology stacks and interfaced with an ASP.NET MVC 3 web front end.</summary>
+      <start-date>
+        <year>2011</year>
+        <month>4</month>
+      </start-date>
+      <end-date>
+        <year>2012</year>
+        <month>3</month>
+      </end-date>
+      <is-current>false</is-current>
+      <company>
+        <id>18355</id>
+        <name>Pariveda Solutions</name>
+      </company>
+    </position>
+    <position>
+      <id>116698479</id>
+      <title>Associate I</title>
+      <summary>Project Manager/Solution Architect leading a team of developers in building an order entry application for one of the nation&#39;s largest diversified media companies.  The team developed this custom application built on top of Salesforce.com CRM and the Force.com platform.  In a dual capacity role, facilitated the entire software development lifecycle from requirements gathering, design, development, testing and deployment all while managing the efforts of the team.  This application consolidated systems, automated a previously paper based process, leveraged CRM data, allowed for flexibility by letting business users configure product details and utilized a workflow engine to ensure the order flowed correctly through the business process.
+
+Project lead for a remote development team working for the market leader in online travel services.  This team delivered a series of tools that could be placed on affiliate partner’s websites.  These tools ranged from delivering customized ads to user web forms that searched the company’s inventory of travel products.  Coordinated efforts between multiple locations throughout the world and designed a framework that not only meet the immediate business need but through the use of configurations, but provided the ability for hands-free deployments to various points of sale worldwide.  These tools were developed in ASP.NET and deployed to the Amazon EC2 Cloud Platform.</summary>
+      <start-date>
+        <year>2010</year>
+        <month>4</month>
+      </start-date>
+      <end-date>
+        <year>2011</year>
+        <month>3</month>
+      </end-date>
+      <is-current>false</is-current>
+      <company>
+        <id>18355</id>
+        <name>Pariveda Solutions</name>
+      </company>
+    </position>
+    <position>
+      <id>63307873</id>
+      <title>Consultant</title>
+      <summary>Validated a Business Intelligence system for revenue assurance for a major retail energy provider.
+
+Developed an automation scheme for regulatory reports for a major retail energy provider
+
+Built a custom application to determine Medicaid eligibility through an integration of different technologies including .NET, SQL, and DROOLS .NET.
+
+Lead ETL developer on a Microsoft Dynamics SL analytic cube, using the Microsoft Business Intelligence suite (SQL Server 2008, SQL Server Integration Services 2008, MS Performace Point, MS Sharepoint)</summary>
+      <start-date>
+        <year>2009</year>
+        <month>2</month>
+      </start-date>
+      <end-date>
+        <year>2010</year>
+        <month>3</month>
+      </end-date>
+      <is-current>false</is-current>
+      <company>
+        <id>18355</id>
+        <name>Pariveda Solutions</name>
+      </company>
+    </position>
+    <position>
+      <id>19834872</id>
+      <title>Space Shuttle Program -- Software Engineer</title>
+      <summary>Kevin was a software engineer at The Boeing Company – NASA Systems. His responsibilities included developing and reviewing software requirements, verification, and providing real-time data analysis and problem resolution during Space Shuttle missions.  Specifically:
+
+•	Led R&amp;D project developing Redundancy Management requirements.
+•	Developed and reviewed software requirements, and test case verification.
+•	Conducted software verification in Shuttle Avionics Integration Lab (SAIL), analyze test data and author test reports.
+•	Self initiated, directed and created analysis tools, reducing the time to analyze test data.
+•	Provided real-time data analysis and problem resolution during Space Shuttle missions.
+•	Collaborated with Data Processing System community to author and present mission summary reports to management.
+•	Presented testing baselines and summaries to Software Control Board.
+•	Managed Co-Op students to develop a data analysis tool, expediting post-test data review</summary>
+      <start-date>
+        <year>2005</year>
+        <month>1</month>
+      </start-date>
+      <end-date>
+        <year>2009</year>
+        <month>1</month>
+      </end-date>
+      <is-current>false</is-current>
+      <company>
+        <id>1384</id>
+        <name>The Boeing Company</name>
+      </company>
+    </position>
+    <position>
+      <id>28680119</id>
+      <title>Space Shuttle Engineering Intern</title>
+      <summary>•	Designed and developed web pages for software team.		
+•	Supported software engineers by converting requirements into logic flow diagrams.
+•	Created a searchable database of historical data as part of the Return to Flight initiative.</summary>
+      <start-date>
+        <year>2002</year>
+        <month>5</month>
+      </start-date>
+      <end-date>
+        <year>2004</year>
+        <month>8</month>
+      </end-date>
+      <is-current>false</is-current>
+      <company>
+        <id>1384</id>
+        <name>The Boeing Company</name>
+      </company>
+    </position>
+  </positions>
+  <id>C9veFvQdJN</id>
+  <industry>Information Technology and Services</industry>
+  <location>
+    <name>Houston, Texas Area</name>
+    <country>
+      <code>us</code>
+    </country>
+  </location>
+</person>

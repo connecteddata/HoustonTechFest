@@ -35,6 +35,12 @@
     <Reference Include="RestSharp">
       <HintPath>..\packages\RestSharp.104.4.0\lib\net4\RestSharp.dll</HintPath>
     </Reference>
+    <Reference Include="ShortBus">
+      <HintPath>..\lib\ShortBus.dll</HintPath>
+    </Reference>
+    <Reference Include="ShortBus.Markers">
+      <HintPath>..\lib\ShortBus.Markers.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,15 +50,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="APIBase.cs" />
+    <Compile Include="Connections\ConnectionsAPI.cs" />
+    <Compile Include="Profile\ProfileAPI.cs" />
     <Compile Include="Connections\ConnectionsDeserializer.cs" />
     <Compile Include="Connections\ObtainConnectionsCommandHandler.cs" />
+    <Compile Include="LinkedInQueryHandler.cs" />
+    <Compile Include="LinkedInQuery.cs" />
+    <Compile Include="Profile\ProfileDeserializer.cs" />
+    <Compile Include="Profile\ObtainConnectionsQuery.cs" />
+    <Compile Include="Profile\ObtainConnectionsQueryHandler.cs" />
+    <Compile Include="Profile\ObtainLinkedInProfileQuery.cs" />
+    <Compile Include="Profile\ObtainLinkedInProfileQueryHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="People\" />
+    <ProjectReference Include="..\ConnectedData.DataTransfer\ConnectedData.DataTransfer.csproj">
+      <Project>{58a2548c-b82b-422b-aa2d-eaffaa8aa1ae}</Project>
+      <Name>ConnectedData.DataTransfer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />

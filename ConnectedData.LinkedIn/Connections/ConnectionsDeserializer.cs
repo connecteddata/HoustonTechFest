@@ -1,24 +1,26 @@
-﻿using System;
+﻿using ConnectedData.DataTransfer;
+using ConnectedData.LinkedIn.Service;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Xml.Linq;
 
-namespace ConnectedData.LinkedIn.Service
+namespace ConnectedData.LinkedIn
 {
 
-    internal class ConnectionsDeserializer : IMapper<string, IEnumerable<LinkedInPersonDto>>, IMapper<XDocument, IEnumerable<LinkedInPersonDto>>
+    public class ConnectionsDeserializer : IMapper<string, IEnumerable<PersonDto>>, IMapper<XDocument, IEnumerable<PersonDto>>
     {
 
-        public IEnumerable<LinkedInPersonDto> Map(string t)
+        public IEnumerable<PersonDto> Map(string t)
         {
-            if (string.IsNullOrEmpty(t)) return new List<LinkedInPersonDto>();
+            if (string.IsNullOrEmpty(t)) return new List<PersonDto>();
             return Map(XDocument.Parse(t));
         }
 
-        public IEnumerable<LinkedInPersonDto> Map(XDocument doc)
+        public IEnumerable<PersonDto> Map(XDocument doc)
         {
-            var maps = new List<LinkedInPersonDto>();
+            var maps = new List<PersonDto>();
             
             foreach (var personElement in doc.Root.Elements("person").Where(e => !e.Element("first-name").Value.Equals("private")))
             {
@@ -34,16 +36,16 @@ namespace ConnectedData.LinkedIn.Service
                 var pictureUriValue = GetValueFromElement(personElement, "picture-url");
                 Uri pictureUri = pictureUriValue == String.Empty ? null : new Uri(pictureUriValue);
 
-                maps.Add(new LinkedInPersonDto()
+                maps.Add(new PersonDto()
                 {
                     Id = id,
-                    FirstName = firstName,
-                    LastName = lastName,
-                    Headline = headline,
+                    //FirstName = firstName,
+                    //LastName = lastName,
+                    //Headline = headline,
                     Industry = industry,
                     Location = location,
                     CountryCode = countryCode,
-                    PictureUrl = pictureUri
+                    //PictureUrl = pictureUri
                 });
             }
             return maps;

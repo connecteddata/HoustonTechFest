@@ -312,9 +312,17 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ConnectedData.DataTransfer\ConnectedData.DataTransfer.csproj">
+      <Project>{58a2548c-b82b-422b-aa2d-eaffaa8aa1ae}</Project>
+      <Name>ConnectedData.DataTransfer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ConnectedData.Domain\ConnectedData.Domain.csproj">
       <Project>{438f94f4-0ea5-4d2c-a022-786a69155c47}</Project>
       <Name>ConnectedData.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ConnectedData.LinkedIn\ConnectedData.LinkedIn.csproj">
+      <Project>{2a02fb83-bf2b-461a-8455-0213f078b602}</Project>
+      <Name>ConnectedData.LinkedIn</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

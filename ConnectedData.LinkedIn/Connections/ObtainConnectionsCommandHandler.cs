@@ -1,29 +1,18 @@
-﻿using System;
+﻿using ConnectedData.DataTransfer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace ConnectedData.LinkedIn.Service
+namespace ConnectedData.LinkedIn
 {
     internal class Connections
     {
-        public List<LinkedInPersonDto> People { get; set; }
+        public List<PersonDto> People { get; set; }
     }
 
-    public class LinkedInPersonDto
-    {
-        public string Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string Headline { get; set; }
-        public Uri PictureUrl { get; set; }
-        public string Industry { get; set; }
-        public string Location { get; set; }
-        public string CountryCode { get; set; }
-
-    }
 
     public interface IMapper<in T, out V>
     {
@@ -50,16 +39,16 @@ namespace ConnectedData.LinkedIn.Service
         {
         }
 
-        public IEnumerable<LinkedInPersonDto> Handle(ObtainUserConnectionsFromLinkedin @command)
+        public IEnumerable<PersonDto> Handle(ObtainUserConnectionsFromLinkedin @command)
         {
-            var dtos = new List<LinkedInPersonDto>();
+            var dtos = new List<PersonDto>();
 
             RestSharp.RestClient client = new RestSharp.RestClient();
             //client.AddHandler("application/xml", new ConnectionsDeserializer());
             RestSharp.IRestRequest request = new RestSharp.RestRequest("https://api.linkedin.com/v1/people/~/connections", RestSharp.Method.GET);
             request.AddHeader("Authorization", string.Format("Bearer {0}", @command.AccessToken));
             var response = client.Execute(request);
-            var mapper = new ConnectedData.LinkedIn.Service.ConnectionsDeserializer();
+            var mapper = new ConnectedData.LinkedIn.ConnectionsDeserializer();
             var results = mapper.Map(response.Content);
             dtos.AddRange(results);
             return dtos;

@@ -1,19 +1,18 @@
-﻿using System;
+﻿using ConnectedData.DataTransfer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 
 namespace ConnectedData.Web.Controllers
 {
-    public class LinkedInController : Controller
-
+    public class LinkedInController : AuthenticatedControllerBase
     {
-        private readonly ShortBus.IMediator _mediator;
 
-        public LinkedInController(ShortBus.IMediator mediator)
+        public LinkedInController(ShortBus.IMediator mediator) : base(mediator)
         {
-            _mediator = mediator;
         }
 
         // GET: LinkedInSync
@@ -22,18 +21,42 @@ namespace ConnectedData.Web.Controllers
             return View();
         }
 
-        public ActionResult RetrieveData()
+        public async Task<ActionResult> RetrieveData()
         {
             //mediate a call to linked in to get data
-            //var linkedInDataResponse = _mediator.Request(LinkedInDataForUser())
-            //mediate a call to graph db to persist
-            //redirect to linked in summary 
+            var profileResponse = await _mediator.RequestAsync<DetailedPersonDto>(new LinkedIn.Profile.ObtainProfileQuery(LinkedInAccesToken, this.LinkedInUserId));
+
+            if (profileResponse.HasException())
+                throw profileResponse.Exception;
+
+            //notify all subscribers (mainly just graphDB, who will persist any updates)
+            var persist = await _mediator.NotifyAsync(profileResponse.Data);
+
+            if (persist.HasException())
+                throw persist.Exception;
+
+            var connectionsResponse = await _mediator.RequestAsync<IEnumerable<PersonDto>>(new LinkedIn.Profile.ObtainConnectionsQuery(this.LinkedInAccesToken, this.LinkedInUserId));
+
+            if (connectionsResponse.HasException())
+                throw connectionsResponse.Exception;
+
+            //notify all subscribers (mainly just graphDB, who will persist any updates)
+            persist = await _mediator.NotifyAsync(profileResponse.Data);
+
+            if (persist.HasException())
+                throw persist.Exception;
+
             return RedirectToAction("Summary");
         }
 
         public ActionResult Summary()
         {
-            //populate the view necessary, data will be filled in via graph summary
+            //var response = await _mediator.RequestAsync<LinkedInSummaryDto>(new ObtainLinkedInSummary(this.LinkedInUserId));
+            
+            //if (userLinkedInSummaryResponse.HasException())
+                //throw userLinkedInSummaryResponse.Exception;
+            //var model = AutoMapper.Map<LinkedInSummaryDto, LinkedInSummaryViewModel>(response.Data);
+            //return View(model);
             return View();
         }
 

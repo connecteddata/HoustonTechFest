@@ -1,0 +1,128 @@
+{
+  "FirstName": "Kevin",
+  "LastName": "Moormann",
+  "Headline": "Manager at Pariveda Solutions",
+  "Skills": [
+    "ASP.NET",
+    "F#",
+    "ASP.NET MVC",
+    "SSIS",
+    "Salesforce.com",
+    "Force.com",
+    "C#",
+    "SQL Server",
+    "Agile Project Management",
+    "Continuous Integration",
+    "Microsoft SQL Server",
+    "DAX",
+    "MDX",
+    "Business Intelligence",
+    ".NET",
+    "Process Improvement",
+    "T-SQL",
+    "ETL",
+    "Integration",
+    "SharePoint",
+    "SSRS",
+    "SQL",
+    "Web Applications",
+    "Cloud Computing",
+    "Testing"
+  ],
+  "Educations": [
+    {
+      "Id": "12077960",
+      "SchoolName": "University of Houston",
+      "FieldOfStudy": "Electrical Engineering",
+      "StartDate": "2006-01-01T00:00:00",
+      "EndDate": "2008-12-31T00:00:00",
+      "Degree": "Masters"
+    },
+    {
+      "Id": "10304475",
+      "SchoolName": "South Dakota School of Mines and Technology",
+      "FieldOfStudy": "Computer Engineering",
+      "StartDate": "2000-01-01T00:00:00",
+      "EndDate": "2004-12-31T00:00:00",
+      "Degree": "Bachelor of Science"
+    }
+  ],
+  "Positions": [
+    {
+      "Id": "271970234",
+      "Title": "Project Manager/Solution Architect, Retail Energy Services Company\nLed a team to design and develop a solution to drive a strategic sales channel’s marketing campaigns through an audited and controlled process. The system was comprised of a SharePoint front end integrated with a SQL Server database via SSIS packages and ETL processes.  SharePoint lists and user experience provided the sales team insight into prospect categorization and segmentation. Prospects were classified systematically via interaction with existing customer data stores, U.S. Census Bureau geographic shape data (municipal, village, borough, and county boundaries), Bing Maps API, and application of business rules including geometric segmentation via SQL Server’s spatial data capabilities and implementation of the Open Geospatial Consortium methods.\n\nProject Manager/Solution Architect, Oil and Gas Drilling Resources firm\nArchitected a solution and led a team of developers that transformed data from the financial component of Oracle EBS to a Microsoft SQL Server 2012 Business Intelligence Semantic Model.  Providing both a Tabular and Multidimensional Analysis Services cube, along with SSRS reports and PowerView data visualizations, financial controllers at the firm were able to visualize, browse, and analyze line item detail in a mosaic and once seemly impossible ways.  The analysis completed from this tool allowed the client to discover $500K in unrecognized revenue, unveiled timing issues with receipt of costs and revenue recognition.  In addition it increased auditing accuracy, highlighted issues with data quality and allowed the firm to govern operations of under-performing warehouses.",
+      "Summary": "Project Manager/Solution Architect, Retail Energy Services Company\nLed a team to design and develop a solution to drive a strategic sales channel’s marketing campaigns through an audited and controlled process. The system was comprised of a SharePoint front end integrated with a SQL Server database via SSIS packages and ETL processes.  SharePoint lists and user experience provided the sales team insight into prospect categorization and segmentation. Prospects were classified systematically via interaction with existing customer data stores, U.S. Census Bureau geographic shape data (municipal, village, borough, and county boundaries), Bing Maps API, and application of business rules including geometric segmentation via SQL Server’s spatial data capabilities and implementation of the Open Geospatial Consortium methods.\n\nProject Manager/Solution Architect, Oil and Gas Drilling Resources firm\nArchitected a solution and led a team of developers that transformed data from the financial component of Oracle EBS to a Microsoft SQL Server 2012 Business Intelligence Semantic Model.  Providing both a Tabular and Multidimensional Analysis Services cube, along with SSRS reports and PowerView data visualizations, financial controllers at the firm were able to visualize, browse, and analyze line item detail in a mosaic and once seemly impossible ways.  The analysis completed from this tool allowed the client to discover $500K in unrecognized revenue, unveiled timing issues with receipt of costs and revenue recognition.  In addition it increased auditing accuracy, highlighted issues with data quality and allowed the firm to govern operations of under-performing warehouses.",
+      "StartDate": "2012-01-01T00:00:00",
+      "EndDate": null,
+      "IsCurrent": true,
+      "Company": {
+        "Id": "18355",
+        "Name": "Pariveda Solutions"
+      }
+    },
+    {
+      "Id": "340708994",
+      "Title": "Project Manager\nDeveloped a SharePoint 2010 roadmap for an international agricultural company.  Based on client and user interviews, business needs as well as long term objectives, provided a roadmap with architectural, organizational, and content considerations.\n\nTeam Lead Solution Architect\nDesigned, developed, and released a Microsoft SQL Server Analysis Services (SSAS) Multidimensional Cube for Retail Energy Electric Pricing.  Different data sources were synchronized and transformed into a model providing energy traders an analytic tool on hourly pricing models at varied geographic hubs across the nation.  Both real-time and day-ahead markets were captured with incremental daily loading after an initial historical data load.  Traders were able to quickly analyze historic pricing trends and project future price curves reducing risk exposure and allowing better pricing models for customers.\n\nDeveloper and architectural consultant providing testing, validation and improvements for ETL subsystem of a revolutionary accounting plan for a deregulated retail energy provider that improved the timeliness of the monthly book closing by over 90% from 45 days to 3 days.  System interacted with disparate source data across different technology stacks and interfaced with an ASP.NET MVC 3 web front end.",
+      "Summary": "Project Manager\nDeveloped a SharePoint 2010 roadmap for an international agricultural company.  Based on client and user interviews, business needs as well as long term objectives, provided a roadmap with architectural, organizational, and content considerations.\n\nTeam Lead Solution Architect\nDesigned, developed, and released a Microsoft SQL Server Analysis Services (SSAS) Multidimensional Cube for Retail Energy Electric Pricing.  Different data sources were synchronized and transformed into a model providing energy traders an analytic tool on hourly pricing models at varied geographic hubs across the nation.  Both real-time and day-ahead markets were captured with incremental daily loading after an initial historical data load.  Traders were able to quickly analyze historic pricing trends and project future price curves reducing risk exposure and allowing better pricing models for customers.\n\nDeveloper and architectural consultant providing testing, validation and improvements for ETL subsystem of a revolutionary accounting plan for a deregulated retail energy provider that improved the timeliness of the monthly book closing by over 90% from 45 days to 3 days.  System interacted with disparate source data across different technology stacks and interfaced with an ASP.NET MVC 3 web front end.",
+      "StartDate": "2011-01-01T00:00:00",
+      "EndDate": "2012-01-31T00:00:00",
+      "IsCurrent": false,
+      "Company": {
+        "Id": "18355",
+        "Name": "Pariveda Solutions"
+      }
+    },
+    {
+      "Id": "116698479",
+      "Title": "Project Manager/Solution Architect leading a team of developers in building an order entry application for one of the nation's largest diversified media companies.  The team developed this custom application built on top of Salesforce.com CRM and the Force.com platform.  In a dual capacity role, facilitated the entire software development lifecycle from requirements gathering, design, development, testing and deployment all while managing the efforts of the team.  This application consolidated systems, automated a previously paper based process, leveraged CRM data, allowed for flexibility by letting business users configure product details and utilized a workflow engine to ensure the order flowed correctly through the business process.\n\nProject lead for a remote development team working for the market leader in online travel services.  This team delivered a series of tools that could be placed on affiliate partner’s websites.  These tools ranged from delivering customized ads to user web forms that searched the company’s inventory of travel products.  Coordinated efforts between multiple locations throughout the world and designed a framework that not only meet the immediate business need but through the use of configurations, but provided the ability for hands-free deployments to various points of sale worldwide.  These tools were developed in ASP.NET and deployed to the Amazon EC2 Cloud Platform.",
+      "Summary": "Project Manager/Solution Architect leading a team of developers in building an order entry application for one of the nation's largest diversified media companies.  The team developed this custom application built on top of Salesforce.com CRM and the Force.com platform.  In a dual capacity role, facilitated the entire software development lifecycle from requirements gathering, design, development, testing and deployment all while managing the efforts of the team.  This application consolidated systems, automated a previously paper based process, leveraged CRM data, allowed for flexibility by letting business users configure product details and utilized a workflow engine to ensure the order flowed correctly through the business process.\n\nProject lead for a remote development team working for the market leader in online travel services.  This team delivered a series of tools that could be placed on affiliate partner’s websites.  These tools ranged from delivering customized ads to user web forms that searched the company’s inventory of travel products.  Coordinated efforts between multiple locations throughout the world and designed a framework that not only meet the immediate business need but through the use of configurations, but provided the ability for hands-free deployments to various points of sale worldwide.  These tools were developed in ASP.NET and deployed to the Amazon EC2 Cloud Platform.",
+      "StartDate": "2010-01-01T00:00:00",
+      "EndDate": "2011-01-31T00:00:00",
+      "IsCurrent": false,
+      "Company": {
+        "Id": "18355",
+        "Name": "Pariveda Solutions"
+      }
+    },
+    {
+      "Id": "63307873",
+      "Title": "Validated a Business Intelligence system for revenue assurance for a major retail energy provider.\n\nDeveloped an automation scheme for regulatory reports for a major retail energy provider\n\nBuilt a custom application to determine Medicaid eligibility through an integration of different technologies including .NET, SQL, and DROOLS .NET.\n\nLead ETL developer on a Microsoft Dynamics SL analytic cube, using the Microsoft Business Intelligence suite (SQL Server 2008, SQL Server Integration Services 2008, MS Performace Point, MS Sharepoint)",
+      "Summary": "Validated a Business Intelligence system for revenue assurance for a major retail energy provider.\n\nDeveloped an automation scheme for regulatory reports for a major retail energy provider\n\nBuilt a custom application to determine Medicaid eligibility through an integration of different technologies including .NET, SQL, and DROOLS .NET.\n\nLead ETL developer on a Microsoft Dynamics SL analytic cube, using the Microsoft Business Intelligence suite (SQL Server 2008, SQL Server Integration Services 2008, MS Performace Point, MS Sharepoint)",
+      "StartDate": "2009-01-01T00:00:00",
+      "EndDate": "2010-01-31T00:00:00",
+      "IsCurrent": false,
+      "Company": {
+        "Id": "18355",
+        "Name": "Pariveda Solutions"
+      }
+    },
+    {
+      "Id": "19834872",
+      "Title": "Kevin was a software engineer at The Boeing Company – NASA Systems. His responsibilities included developing and reviewing software requirements, verification, and providing real-time data analysis and problem resolution during Space Shuttle missions.  Specifically:\n\n•\tLed R&D project developing Redundancy Management requirements.\n•\tDeveloped and reviewed software requirements, and test case verification.\n•\tConducted software verification in Shuttle Avionics Integration Lab (SAIL), analyze test data and author test reports.\n•\tSelf initiated, directed and created analysis tools, reducing the time to analyze test data.\n•\tProvided real-time data analysis and problem resolution during Space Shuttle missions.\n•\tCollaborated with Data Processing System community to author and present mission summary reports to management.\n•\tPresented testing baselines and summaries to Software Control Board.\n•\tManaged Co-Op students to develop a data analysis tool, expediting post-test data review",
+      "Summary": "Kevin was a software engineer at The Boeing Company – NASA Systems. His responsibilities included developing and reviewing software requirements, verification, and providing real-time data analysis and problem resolution during Space Shuttle missions.  Specifically:\n\n•\tLed R&D project developing Redundancy Management requirements.\n•\tDeveloped and reviewed software requirements, and test case verification.\n•\tConducted software verification in Shuttle Avionics Integration Lab (SAIL), analyze test data and author test reports.\n•\tSelf initiated, directed and created analysis tools, reducing the time to analyze test data.\n•\tProvided real-time data analysis and problem resolution during Space Shuttle missions.\n•\tCollaborated with Data Processing System community to author and present mission summary reports to management.\n•\tPresented testing baselines and summaries to Software Control Board.\n•\tManaged Co-Op students to develop a data analysis tool, expediting post-test data review",
+      "StartDate": "2005-01-01T00:00:00",
+      "EndDate": "2009-01-31T00:00:00",
+      "IsCurrent": false,
+      "Company": {
+        "Id": "1384",
+        "Name": "The Boeing Company"
+      }
+    },
+    {
+      "Id": "28680119",
+      "Title": "•\tDesigned and developed web pages for software team.\t\t\n•\tSupported software engineers by converting requirements into logic flow diagrams.\n•\tCreated a searchable database of historical data as part of the Return to Flight initiative.",
+      "Summary": "•\tDesigned and developed web pages for software team.\t\t\n•\tSupported software engineers by converting requirements into logic flow diagrams.\n•\tCreated a searchable database of historical data as part of the Return to Flight initiative.",
+      "StartDate": "2002-01-01T00:00:00",
+      "EndDate": "2004-01-31T00:00:00",
+      "IsCurrent": false,
+      "Company": {
+        "Id": "1384",
+        "Name": "The Boeing Company"
+      }
+    }
+  ],
+  "Id": "C9veFvQdJN",
+  "Industry": "Information Technology and Services",
+  "Location": "Houston, Texas Area",
+  "CountryCode": "us"
+}

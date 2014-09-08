@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "LinkedIn Data Summary";
+}
+
+<div class="jumbotron">
+    <h2>Your LinkedIn Data</h2>
+    <p class="lead">We found X connections across Y companies in Z industries.</p>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <p>
+            @*@Html.Partial("ConnectionsForceDirectedVisualization",@model.ForceDirectedData)*@
+            Visualization Summary Here
+        </p>
+    </div>
+</div>

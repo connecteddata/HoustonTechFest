@@ -8,15 +8,25 @@
 </div>
 
 <div class="row">
+    @if (!Request.IsAuthenticated)
+    {
+        <div class="col-md-4">
+            <h2>First login...</h2>
+            <p>
+                You'll need to login via LinkedIN and register an account...
+            </p>
+            <p><a class="btn btn-default" href="/Account/Login">Login via LinkedIn</a></p>
+        </div>
+    }
     <div class="col-md-4">
-        <h2>First login...</h2>
-        <p>
-            You'll need to login via LinkedIN and register an account...
-        </p>
-        <p><a class="btn btn-default" href="/Account/Login">Login via LinkedIn</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>...Then Get Profile and Connections</h2>
+        @if (Request.IsAuthenticated)
+        {
+            <h2>...Now Sync Your Profile and Connections</h2>
+        }
+        else
+        {
+            <h2>...Then Sync Your Profile and Connections</h2>
+        }
         <p>The app will capture your profile info and information about first degree connections</p>
         <p><a class="btn btn-default" href="/LinkedIn/">Get LinkedIn Data</a></p>
     </div>

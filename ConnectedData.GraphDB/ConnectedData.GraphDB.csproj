@@ -39,6 +39,13 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="ShortBus">
+      <HintPath>..\lib\ShortBus.dll</HintPath>
+    </Reference>
+    <Reference Include="ShortBus.Markers, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\ShortBus.Markers.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Net.Http" />
@@ -62,6 +69,7 @@
     <Compile Include="DomainObjectCommandHandlers.cs" />
     <Compile Include="DomainObjectsCommandHandlers.cs" />
     <Compile Include="DomainRelationship.cs" />
+    <Compile Include="GraphNotificationHandler.cs" />
     <Compile Include="GraphPersistance.cs" />
     <Compile Include="CypherExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
