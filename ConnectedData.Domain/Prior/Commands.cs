@@ -9,10 +9,10 @@ namespace ConnectedData.Domain
     
     public class AssociateSkillWithPerson : ICommand
     {
-        public readonly Person Person;
+        public readonly Person1 Person;
         public readonly Concept Skill;
 
-        public AssociateSkillWithPerson(Person person, Concept skill)
+        public AssociateSkillWithPerson(Person1 person, Concept skill)
         {
             Person = person;
             Skill = skill;
@@ -22,10 +22,10 @@ namespace ConnectedData.Domain
 
     public class DisassociateSkillFromPerson : ICommand
     {
-        public readonly Person Person;
+        public readonly Person1 Person;
         public readonly Concept Skill;
 
-        public DisassociateSkillFromPerson(Person person, Concept skill)
+        public DisassociateSkillFromPerson(Person1 person, Concept skill)
         {
             Person = person;
             Skill = skill;

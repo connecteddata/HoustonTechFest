@@ -71,7 +71,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Connections\ObtainConnectionsQueryHandlerTests.cs" />
     <Compile Include="Connections\ConnectionsDeserializerTests.cs" />
     <Compile Include="Profile\ObtainProfileQueryHandlerTests.cs" />
@@ -93,6 +92,10 @@
     <ProjectReference Include="..\ConnectedData.LinkedIn\ConnectedData.LinkedIn.csproj">
       <Project>{2a02fb83-bf2b-461a-8455-0213f078b602}</Project>
       <Name>ConnectedData.LinkedIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ConnectedData.Utils\ConnectedData.Utils.csproj">
+      <Project>{af2cfe7e-8fe4-4a91-9bb5-e379211374e3}</Project>
+      <Name>ConnectedData.Utils</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

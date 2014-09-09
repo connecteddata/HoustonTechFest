@@ -8,12 +8,10 @@ namespace ConnectedData.LinkedIn
     public class LinkedInQuery<TResponseData> : ShortBus.IRequest<TResponseData>, ShortBus.IAsyncRequest<TResponseData>
     {
         public readonly string AccessToken;
-        public readonly string UserId;
 
-        public LinkedInQuery(string accessToken, string userId)
+        public LinkedInQuery(string accessToken)
         {
             AccessToken = accessToken;
-            UserId = userId;
         }
     }
 }

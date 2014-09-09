@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConnectedData.LinkedIn.Profile
+namespace ConnectedData.LinkedIn.Profiles
 {
     public class ObtainProfileQuery : LinkedInQuery<DetailedPersonDto>
     {
-        public ObtainProfileQuery(string accessToken, string userId) : base(accessToken, userId) { }
+        public ObtainProfileQuery(string accessToken) : base(accessToken) { }
     }
 }

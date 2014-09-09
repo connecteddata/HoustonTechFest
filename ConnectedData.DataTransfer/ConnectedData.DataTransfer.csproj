@@ -39,8 +39,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompanyDto.cs" />
     <Compile Include="DetailedPersonDto.cs" />
+    <Compile Include="EducationDto.cs" />
+    <Compile Include="LinkedInFieldAttribute.cs" />
     <Compile Include="PersonDto.cs" />
+    <Compile Include="PositionDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

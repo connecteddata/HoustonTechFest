@@ -65,20 +65,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CommandHandlerBase.cs" />
-    <Compile Include="DomainObjectCommandHandlers.cs" />
-    <Compile Include="DomainObjectsCommandHandlers.cs" />
-    <Compile Include="DomainRelationship.cs" />
-    <Compile Include="GraphNotificationHandler.cs" />
+    <Compile Include="Notifications\GraphNotificationHandler.cs" />
+    <Compile Include="Queries\GraphQueryHandler.cs" />
+    <Compile Include="Prior\CommandHandlerBase.cs" />
+    <Compile Include="Prior\DomainObjectCommandHandlers.cs" />
+    <Compile Include="Prior\DomainObjectsCommandHandlers.cs" />
+    <Compile Include="Prior\DomainRelationship.cs" />
     <Compile Include="GraphPersistance.cs" />
     <Compile Include="CypherExtensions.cs" />
+    <Compile Include="Notifications\ObtainedConnectionsNotificationHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RelationshipCommandHandlers.cs" />
+    <Compile Include="Prior\RelationshipCommandHandlers.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ConnectedData.DataTransfer\ConnectedData.DataTransfer.csproj">
+      <Project>{58a2548c-b82b-422b-aa2d-eaffaa8aa1ae}</Project>
+      <Name>ConnectedData.DataTransfer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ConnectedData.Domain\ConnectedData.Domain.csproj">
       <Project>{49fbb34a-4b43-476b-bb4d-56942588953e}</Project>
       <Name>ConnectedData.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ConnectedData.Messaging\ConnectedData.Messaging.csproj">
+      <Project>{40136292-5320-40b6-b650-6e082c99cef6}</Project>
+      <Name>ConnectedData.Messaging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ConnectedData.Utils\ConnectedData.Utils.csproj">
+      <Project>{af2cfe7e-8fe4-4a91-9bb5-e379211374e3}</Project>
+      <Name>ConnectedData.Utils</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -163,16 +163,16 @@ namespace ConnectedData.GraphDB
             return ProxyHandler().CanHandle(ProxyAddCommand(command as AssociateSkillWithPerson));
         }
 
-        private AddRelationship<Person,Concept> ProxyAddCommand(AssociateSkillWithPerson command)
+        private AddRelationship<Person1,Concept> ProxyAddCommand(AssociateSkillWithPerson command)
         {
-            var relationship = new DomainRelationship<Person, Concept>(command.Person, command.Skill, Domain.RelationshipDirection.LeftToRight, "HasSkill");
-            var addCommand = new AddRelationship<Person, Concept>(relationship);
+            var relationship = new DomainRelationship<Person1, Concept>(command.Person, command.Skill, Domain.RelationshipDirection.LeftToRight, "HasSkill");
+            var addCommand = new AddRelationship<Person1, Concept>(relationship);
             return addCommand;
         }
 
-        private AddRelationshipCommmandHandler<Person,Concept> ProxyHandler()
+        private AddRelationshipCommmandHandler<Person1,Concept> ProxyHandler()
         {
-            return new AddRelationshipCommmandHandler<Person, Concept>(_client);
+            return new AddRelationshipCommmandHandler<Person1, Concept>(_client);
         }
         
         
@@ -200,16 +200,16 @@ namespace ConnectedData.GraphDB
             return ProxyHandler().CanHandle(ProxyCommand(command as DisassociateSkillFromPerson));
         }
 
-        private RemoveRelationship<Person, Concept> ProxyCommand(DisassociateSkillFromPerson command)
+        private RemoveRelationship<Person1, Concept> ProxyCommand(DisassociateSkillFromPerson command)
         {
-            var relationship = new DomainRelationship<Person, Concept>(command.Person, command.Skill, Domain.RelationshipDirection.LeftToRight, "HasSkill");
-            var removeCommand = new RemoveRelationship<Person, Concept>(relationship);
+            var relationship = new DomainRelationship<Person1, Concept>(command.Person, command.Skill, Domain.RelationshipDirection.LeftToRight, "HasSkill");
+            var removeCommand = new RemoveRelationship<Person1, Concept>(relationship);
             return removeCommand;
         }
 
-        private RemoveRelationshipCommandHandler<Person, Concept> ProxyHandler()
+        private RemoveRelationshipCommandHandler<Person1, Concept> ProxyHandler()
         {
-            return new RemoveRelationshipCommandHandler<Person, Concept>(_client);
+            return new RemoveRelationshipCommandHandler<Person1, Concept>(_client);
         }
 
 

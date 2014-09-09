@@ -1,5 +1,5 @@
 ﻿using ConnectedData.DataTransfer;
-using ConnectedData.LinkedIn.Profile;
+using ConnectedData.LinkedIn.Profiles;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -28,8 +28,7 @@ namespace ConnectedData.LinkedIn.Tests
             var fileContents = File.ReadAllText(filePath);
             var expected = JsonConvert.DeserializeObject<DetailedPersonDto>(fileContents);
             var accessToken = "AQVqeezDWYfggl3PAUfDeR2s3HAWz3nelZDV6q0XDdWKhityjGV3AfmB1jtrXuzrpJOZdd4yR5n8OHiiIE7mHffRwAcSMAq9qQumZKj8n1KxEht3wiQA30M4hq9OLw55yBf4J9gtjoGyNnfwordD9Co6fb8jvxdrAfGbqEtEjR3aYO_mmmY";
-            string userId = null;
-            var query = new ObtainProfileQuery(accessToken, userId);
+            var query = new ObtainProfileQuery(accessToken);
             var handler = new ObtainLinkedInProfileQueryHandler();
             //Act
             var actual = handler.Handle(query);

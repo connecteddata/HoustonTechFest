@@ -37,6 +37,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{86ABD9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedData.DataTransfer", "ConnectedData.DataTransfer\ConnectedData.DataTransfer.csproj", "{58A2548C-B82B-422B-AA2D-EAFFAA8AA1AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedData.Utils", "ConnectedData.Utils\ConnectedData.Utils.csproj", "{AF2CFE7E-8FE4-4A91-9BB5-E379211374E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedData.Messaging", "ConnectedData.Messaging\ConnectedData.Messaging.csproj", "{40136292-5320-40B6-B650-6E082C99CEF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{58A2548C-B82B-422B-AA2D-EAFFAA8AA1AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58A2548C-B82B-422B-AA2D-EAFFAA8AA1AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58A2548C-B82B-422B-AA2D-EAFFAA8AA1AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF2CFE7E-8FE4-4A91-9BB5-E379211374E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF2CFE7E-8FE4-4A91-9BB5-E379211374E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF2CFE7E-8FE4-4A91-9BB5-E379211374E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF2CFE7E-8FE4-4A91-9BB5-E379211374E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40136292-5320-40B6-B650-6E082C99CEF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40136292-5320-40B6-B650-6E082C99CEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40136292-5320-40B6-B650-6E082C99CEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40136292-5320-40B6-B650-6E082C99CEF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

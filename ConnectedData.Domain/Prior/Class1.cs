@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ConnectedData.Domain
 {
     public class DomainObject : IEquatable<DomainObject> { 
-        public Guid Id { get; set; }
+        public Guid Guid { get; set; }
 
         public override bool Equals(object obj)
         {
@@ -17,17 +17,17 @@ namespace ConnectedData.Domain
         public bool Equals(DomainObject other)
         {
             if (null == other) return false;
-            return this.Id.Equals(other.Id);
+            return this.Guid.Equals(other.Guid);
         }
 
         public override int GetHashCode()
         {
-            if (null == this.Id) return base.GetHashCode();
-            return this.Id.GetHashCode();
+            if (null == this.Guid) return base.GetHashCode();
+            return this.Guid.GetHashCode();
         }
     }
 
-    public class Person : DomainObject
+    public class Person1 : DomainObject
     {
         public string Name { get; set; }
     }

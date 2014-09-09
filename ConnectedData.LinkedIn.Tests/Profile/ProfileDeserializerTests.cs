@@ -12,6 +12,7 @@ using ObjectApproval;
 using ApprovalTests.Reporters;
 using ConnectedData.DataTransfer;
 using Newtonsoft.Json;
+using ConnectedData.LinkedIn.Profiles;
 namespace ConnectedData.LinkedIn.Service.Tests.Profile
 {
     [TestFixture]
@@ -19,7 +20,7 @@ namespace ConnectedData.LinkedIn.Service.Tests.Profile
     {
         [Test]
         [UseReporter(typeof(BeyondCompareReporter))]
-        public void Can_Deserialize()
+        public void Can_Deserialize_Profile()
         {
             //Arrange
             var expectedFileLocation = ConfigurationManager.AppSettings["DummyProfileFileJson"];

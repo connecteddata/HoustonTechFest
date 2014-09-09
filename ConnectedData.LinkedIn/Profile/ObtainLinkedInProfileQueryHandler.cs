@@ -1,12 +1,11 @@
 ﻿using ConnectedData.DataTransfer;
-using ConnectedData.LinkedIn.Service.API;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConnectedData.LinkedIn.Profile
+namespace ConnectedData.LinkedIn.Profiles
 {
     public class ObtainLinkedInProfileQueryHandler : LinkedInQueryHandler<ObtainProfileQuery, DetailedPersonDto>
     {

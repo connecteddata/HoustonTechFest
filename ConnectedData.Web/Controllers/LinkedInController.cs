@@ -24,7 +24,7 @@ namespace ConnectedData.Web.Controllers
         public async Task<ActionResult> RetrieveData()
         {
             //mediate a call to linked in to get data
-            var profileResponse = await _mediator.RequestAsync<DetailedPersonDto>(new LinkedIn.Profile.ObtainProfileQuery(LinkedInAccesToken, this.LinkedInUserId));
+            var profileResponse = await _mediator.RequestAsync<DetailedPersonDto>(new LinkedIn.Profiles.ObtainProfileQuery(LinkedInAccesToken));
 
             if (profileResponse.HasException())
                 throw profileResponse.Exception;
@@ -35,7 +35,7 @@ namespace ConnectedData.Web.Controllers
             if (persist.HasException())
                 throw persist.Exception;
 
-            var connectionsResponse = await _mediator.RequestAsync<IEnumerable<PersonDto>>(new LinkedIn.Profile.ObtainConnectionsQuery(this.LinkedInAccesToken, this.LinkedInUserId));
+            var connectionsResponse = await _mediator.RequestAsync<IEnumerable<PersonDto>>(new LinkedIn.Connections.ObtainConnectionsQuery(this.LinkedInAccesToken));
 
             if (connectionsResponse.HasException())
                 throw connectionsResponse.Exception;

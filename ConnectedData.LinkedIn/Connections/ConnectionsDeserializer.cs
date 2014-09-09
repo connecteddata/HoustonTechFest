@@ -1,12 +1,12 @@
 ﻿using ConnectedData.DataTransfer;
-using ConnectedData.LinkedIn.Service;
+using ConnectedData.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Xml.Linq;
 
-namespace ConnectedData.LinkedIn
+namespace ConnectedData.LinkedIn.Connections
 {
 
     public class ConnectionsDeserializer : IMapper<string, IEnumerable<PersonDto>>, IMapper<XDocument, IEnumerable<PersonDto>>

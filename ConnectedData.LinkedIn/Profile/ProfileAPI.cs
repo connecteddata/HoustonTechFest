@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConnectedData.LinkedIn.Service.API
+namespace ConnectedData.LinkedIn.Profiles
 {
     class ProfileAPI : APIMappingStringContentReponse<DetailedPersonDto>
     {

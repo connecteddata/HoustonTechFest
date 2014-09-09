@@ -39,7 +39,7 @@ namespace ConnectedData.GraphDB
             if (null == domainObjects) throw new ArgumentNullException("domainObjects");
             if (0 == domainObjects.Count()) throw new ArgumentException("Cannot build a cypher create string for an empty collection");
             var @object = domainObjects.First();
-            if (@object is Person) return "people";
+            if (@object is Person1) return "people";
             if (@object is Concept) return "concepts";
             return "domainObjects";
         }

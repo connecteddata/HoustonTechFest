@@ -11,6 +11,8 @@ using ApprovalTests;
 using ObjectApproval;
 using ApprovalTests.Reporters;
 using ConnectedData.DataTransfer;
+using Newtonsoft.Json;
+using ConnectedData.LinkedIn.Connections;
 
 namespace ConnectedData.LinkedIn.Tests
 {
@@ -19,9 +21,13 @@ namespace ConnectedData.LinkedIn.Tests
     {
         [Test]
         [UseReporter(typeof(BeyondCompareReporter))]
-        public void Can_Deserialize()
+        public void Can_Deserialize_Connections()
         {
             //Arrange
+            var expectedFileLocation = ConfigurationManager.AppSettings["DummyConnectionsFileJson"];
+            var expectedFileContents = File.ReadAllText(expectedFileLocation);
+            var expected = JsonConvert.DeserializeObject<IEnumerable<PersonDto>>(expectedFileContents);
+
             var dummyFileLocation = ConfigurationManager.AppSettings["DummyConnectionsFileXml"];
             var fileContents = File.ReadAllText(dummyFileLocation);
             var mapper = new ConnectionsDeserializer();
@@ -30,7 +36,7 @@ namespace ConnectedData.LinkedIn.Tests
             //Assert
             try
             {
-                actual.ShouldBeEquivalentTo(new DetailedPersonDto());
+                actual.ShouldBeEquivalentTo(expected);
             }
             catch
             {
