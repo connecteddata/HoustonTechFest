@@ -21,7 +21,7 @@ namespace ConnectedData.GraphDB
                 .Cypher
                 .Match(string.Format("({0})", t.EntityPlusLabelCypher()))
                 .Where(t.WhereIdClause())
-                .WithParam("Id", t.Id)
+                .WithParam("Id", t.Guid.ToString())
                 .Set(string.Format("{0} = {{{1}}}", t.EntityString().ToLower(), t.UpdateEntityString()))
                 .WithParam(t.UpdateEntityString(), t);
         }
@@ -39,7 +39,7 @@ namespace ConnectedData.GraphDB
                     .Cypher
                     .Match(string.Format("({0})", t.EntityPlusLabelCypher()))
                     .Where(t.WhereIdClause())
-                    .WithParam("Id", t.Id.ToString())
+                    .WithParam("Id", t.Guid.ToString())
                     .Delete(t.EntityString().ToLower());
         }
     }

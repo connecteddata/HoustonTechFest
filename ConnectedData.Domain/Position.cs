@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConnectedData.Domain
 {
-    public class Position
+    public class Position : DomainObject
     {
         public string Id { get; set; }
         public string Title { get; set; }

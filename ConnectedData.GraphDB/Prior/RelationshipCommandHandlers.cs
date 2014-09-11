@@ -94,8 +94,8 @@ namespace ConnectedData.GraphDB
 
             return _graphClient.Cypher
                 .Match(leftString, rightString)
-                .Where((DomainObject left) => left.Id == relationship.LeftSideDomainObject.Id)
-                .AndWhere((DomainObject right) => right.Id == relationship.RightSideDomainObject.Id)
+                .Where((DomainObject left) => left.Guid == relationship.LeftSideDomainObject.Guid)
+                .AndWhere((DomainObject right) => right.Guid == relationship.RightSideDomainObject.Guid)
                 .CreateUnique(relationshipString);
 
         }
@@ -134,8 +134,8 @@ namespace ConnectedData.GraphDB
 
             return _graphClient.Cypher
                 .Match(leftString, relationshipString, rightString)
-                .Where((DomainObject left) => left.Id == relationship.LeftSideDomainObject.Id)
-                .AndWhere((DomainObject right) => right.Id == relationship.RightSideDomainObject.Id)
+                .Where((DomainObject left) => left.Guid == relationship.LeftSideDomainObject.Guid)
+                .AndWhere((DomainObject right) => right.Guid == relationship.RightSideDomainObject.Guid)
                 .Delete("relationship");
 
         }

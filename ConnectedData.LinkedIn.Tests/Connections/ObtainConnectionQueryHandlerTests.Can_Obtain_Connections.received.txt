@@ -1002,21 +1002,27 @@
         "CountryCode": "us"
     },
     {
-        "Id": "gwyMTJZOL8",
-        "Industry": "Broadcast Media",
-        "Location": "Provo, Utah Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "fBnHEYYxdk",
         "Industry": "Oil & Energy",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
+        "Id": "gwyMTJZOL8",
+        "Industry": "Broadcast Media",
+        "Location": "Provo, Utah Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "GUYW2sIjzf",
         "Industry": "Information Technology and Services",
         "Location": "Washington D.C. Metro Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "PAvWFHesv_",
+        "Industry": "Computer Software",
+        "Location": "Austin, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -1035,12 +1041,6 @@
         "Id": "uCVCiy4N-T",
         "Industry": "Information Technology and Services",
         "Location": "United States",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "PAvWFHesv_",
-        "Industry": "Computer Software",
-        "Location": "Austin, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -1314,6 +1314,12 @@
         "CountryCode": "us"
     },
     {
+        "Id": "5MpjQyG4Sk",
+        "Industry": "Computer Software",
+        "Location": "Dallas/Fort Worth Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "d7RtSsLfoL",
         "Industry": "Information Technology and Services",
         "Location": "Dallas/Fort Worth Area",
@@ -1323,12 +1329,6 @@
         "Id": "dmRXtKhkba",
         "Industry": "Information Technology and Services",
         "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "5MpjQyG4Sk",
-        "Industry": "Computer Software",
-        "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
     {
@@ -1410,14 +1410,14 @@
         "CountryCode": "us"
     },
     {
-        "Id": "Zw1g7_O6oA",
-        "Industry": "Computer Software",
+        "Id": "0zlo0TLI7m",
+        "Industry": "Internet",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
-        "Id": "0zlo0TLI7m",
-        "Industry": "Internet",
+        "Id": "Zw1g7_O6oA",
+        "Industry": "Computer Software",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
@@ -1782,15 +1782,15 @@
         "CountryCode": "us"
     },
     {
-        "Id": "srHgXv7hKE",
-        "Industry": "Online Media",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "QR1beJr3V1",
         "Industry": "Computer Software",
         "Location": "Greater Seattle Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "srHgXv7hKE",
+        "Industry": "Online Media",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -1986,15 +1986,15 @@
         "CountryCode": "us"
     },
     {
-        "Id": "YBLifljwsK",
-        "Industry": "Computer Software",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "1Bt-Ek2bQ1",
         "Industry": "Electrical/Electronic Manufacturing",
         "Location": "Cedar Rapids, Iowa Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "YBLifljwsK",
+        "Industry": "Computer Software",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -2280,6 +2280,12 @@
         "CountryCode": "us"
     },
     {
+        "Id": "KHYkJ-QrcO",
+        "Industry": "Higher Education",
+        "Location": "Greater Seattle Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "Png0hTanGn",
         "Industry": "Information Technology and Services",
         "Location": "Greater Denver Area",
@@ -2289,12 +2295,6 @@
         "Id": "uO1-Pc22VY",
         "Industry": "Information Technology and Services",
         "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "KHYkJ-QrcO",
-        "Industry": "Higher Education",
-        "Location": "Greater Seattle Area",
         "CountryCode": "us"
     },
     {

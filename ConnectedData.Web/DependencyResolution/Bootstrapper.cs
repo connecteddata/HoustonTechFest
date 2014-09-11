@@ -5,6 +5,8 @@ using System.Web;
 using StructureMap;
 using StructureMap.Graph;
 using ShortBus;
+using Neo4jClient;
+using System.Configuration;
 
 namespace ConnectedData.Web.DependencyResolution
 {
@@ -23,15 +25,27 @@ namespace ConnectedData.Web.DependencyResolution
 
         private static ShortBus.IDependencyResolver Resolver()
         {
+            var graphClient = new Neo4jClient.GraphClient(new Uri(ConfigurationManager.AppSettings["neo4jConnectionString"]));
+            graphClient.Connect();
             var container = new StructureMap.Container(
-                c => c.Scan(s =>
+                c =>
                 {
-                    s.AssemblyContainingType<IMediator>();
-                    s.TheCallingAssembly();
-                    s.WithDefaultConventions();
-                    s.AddAllTypesOf((typeof(IRequestHandler<,>)));
-                    s.AddAllTypesOf(typeof(INotificationHandler<>));
-                }));
+                    c.Scan(s =>
+                        {
+                            s.AssemblyContainingType<IMediator>();
+                            s.TheCallingAssembly();
+                            s.Assembly("ConnectedData.LinkedIn");
+                            s.Assembly("ConnectedData.GraphDB");
+                            s.WithDefaultConventions();
+                            s.AddAllTypesOf((typeof(IAsyncRequestHandler<,>)));
+                            s.AddAllTypesOf((typeof(IRequestHandler<,>)));
+                            s.AddAllTypesOf((typeof(IAsyncNotificationHandler<>)));
+                            s.AddAllTypesOf(typeof(INotificationHandler<>));
+
+                        });
+                    c.ForSingletonOf<IGraphClient>().Use(graphClient);
+                }
+            );
             return new ShortBus.StructureMap.StructureMapDependencyResolver(container);
         }
 

@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedData.Utils", "Conn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedData.Messaging", "ConnectedData.Messaging\ConnectedData.Messaging.csproj", "{40136292-5320-40B6-B650-6E082C99CEF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedData.GraphDB.Tests", "ConnectedData.GraphDB.Tests\ConnectedData.GraphDB.Tests.csproj", "{08244D22-7457-4F55-B26F-B4F3567C6566}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{40136292-5320-40B6-B650-6E082C99CEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40136292-5320-40B6-B650-6E082C99CEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40136292-5320-40B6-B650-6E082C99CEF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08244D22-7457-4F55-B26F-B4F3567C6566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08244D22-7457-4F55-B26F-B4F3567C6566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08244D22-7457-4F55-B26F-B4F3567C6566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08244D22-7457-4F55-B26F-B4F3567C6566}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

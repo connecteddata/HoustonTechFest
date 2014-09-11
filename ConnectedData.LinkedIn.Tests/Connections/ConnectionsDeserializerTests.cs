@@ -33,6 +33,10 @@ namespace ConnectedData.LinkedIn.Tests
             var mapper = new ConnectionsDeserializer();
             //Act
             var actual = mapper.Map(fileContents);
+            foreach(var a in actual)
+            {
+                Console.WriteLine(string.Format("C9veFvQdJN,{0}", a.Id));
+            }
             //Assert
             try
             {

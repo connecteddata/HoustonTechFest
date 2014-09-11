@@ -13,7 +13,6 @@ namespace ConnectedData.GraphDB
         DomainObjectsCommandHandler<CreateDomainObjects<TDomainObjects>,TDomainObjects>, ICommandHandler<ICommand>
         where TDomainObjects : IEnumerable<DomainObject>
     {
-
         public CreateDomainObjectsHandler(IGraphClient client) : base(client) { }
 
         protected override ICypherFluentQuery Query(TDomainObjects domainObjects)

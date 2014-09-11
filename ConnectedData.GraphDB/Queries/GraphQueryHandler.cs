@@ -23,7 +23,6 @@ namespace ConnectedData.GraphDB
 
         protected virtual IEnumerable<TResponseData> Execute(ICypherFluentQuery<TResponseData> cypherQuery)
         {
-            Console.WriteLine(cypherQuery.Query.DebugQueryText);
             return cypherQuery.Results;
         }
 

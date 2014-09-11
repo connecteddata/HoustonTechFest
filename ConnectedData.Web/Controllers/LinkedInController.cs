@@ -1,4 +1,7 @@
 ﻿using ConnectedData.DataTransfer;
+using ConnectedData.Messaging.Notifications;
+using ConnectedData.Messaging.Queries;
+using ConnectedData.Web.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +25,10 @@ namespace ConnectedData.Web.Controllers
         }
 
         public async Task<ActionResult> RetrieveData()
+        
         {
+            // short circuit if data has already been retrieved or even make that part of a user or context object
+
             //mediate a call to linked in to get data
             var profileResponse = await _mediator.RequestAsync<DetailedPersonDto>(new LinkedIn.Profiles.ObtainProfileQuery(LinkedInAccesToken));
 
@@ -30,7 +36,7 @@ namespace ConnectedData.Web.Controllers
                 throw profileResponse.Exception;
 
             //notify all subscribers (mainly just graphDB, who will persist any updates)
-            var persist = await _mediator.NotifyAsync(profileResponse.Data);
+            var persist = await _mediator.NotifyAsync(new ObtainedUserProfileNotification(profileResponse.Data));
 
             if (persist.HasException())
                 throw persist.Exception;
@@ -41,7 +47,7 @@ namespace ConnectedData.Web.Controllers
                 throw connectionsResponse.Exception;
 
             //notify all subscribers (mainly just graphDB, who will persist any updates)
-            persist = await _mediator.NotifyAsync(profileResponse.Data);
+            persist = await _mediator.NotifyAsync(new Messaging.ObtainedUserConnectionsNotification(this.LinkedInUserId, connectionsResponse.Data));
 
             if (persist.HasException())
                 throw persist.Exception;
@@ -49,15 +55,17 @@ namespace ConnectedData.Web.Controllers
             return RedirectToAction("Summary");
         }
 
-        public ActionResult Summary()
+        public async Task<ActionResult> Summary()
         {
-            //var response = await _mediator.RequestAsync<LinkedInSummaryDto>(new ObtainLinkedInSummary(this.LinkedInUserId));
+            var response = await _mediator.RequestAsync<IEnumerable<UserSummaryDto>>(new ObtainUserSummary(this.LinkedInUserId));
+
+            if (response.HasException())
+                throw response.Exception;
+            var result = response.Data.FirstOrDefault(); 
+            if (null == result) throw new InvalidOperationException(string.Format("Unable to gather the LinkedIn Summary Data for user '{0}'", this.LinkedInUserId));
             
-            //if (userLinkedInSummaryResponse.HasException())
-                //throw userLinkedInSummaryResponse.Exception;
-            //var model = AutoMapper.Map<LinkedInSummaryDto, LinkedInSummaryViewModel>(response.Data);
-            //return View(model);
-            return View();
+            
+            return View(model: new LinkedInSummaryViewModel() { NumberOfConnections = result.NumberOfConnections, NumberOfIndustries = result.NumberOfIndustries });
         }
 
         public JsonResult GraphSummary()
