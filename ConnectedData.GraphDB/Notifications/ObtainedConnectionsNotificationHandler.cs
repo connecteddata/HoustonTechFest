@@ -17,7 +17,7 @@ namespace ConnectedData.GraphDB
     {
         public ObtainedConnectionsNotificationHandler(IGraphClient graphClient) : base(graphClient) { }
 
-        protected override void HandleMessage(ObtainedUserConnectionsNotification message)
+        protected override void HandleProxy(ObtainedUserConnectionsNotification message)
         {
             //get person who has the connections
             var person = GetPersonFromUserId(message.UserId);

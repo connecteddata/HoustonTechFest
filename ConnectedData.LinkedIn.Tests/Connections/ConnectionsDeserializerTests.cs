@@ -13,6 +13,7 @@ using ApprovalTests.Reporters;
 using ConnectedData.DataTransfer;
 using Newtonsoft.Json;
 using ConnectedData.LinkedIn.Connections;
+using Newtonsoft.Json.Bson;
 
 namespace ConnectedData.LinkedIn.Tests
 {
@@ -33,10 +34,9 @@ namespace ConnectedData.LinkedIn.Tests
             var mapper = new ConnectionsDeserializer();
             //Act
             var actual = mapper.Map(fileContents);
-            foreach(var a in actual)
-            {
-                Console.WriteLine(string.Format("C9veFvQdJN,{0}", a.Id));
-            }
+
+            var di = (new FileInfo(expectedFileLocation)).Directory;
+            
             //Assert
             try
             {

@@ -36,7 +36,7 @@ namespace ConnectedData.Web.Controllers
                 throw profileResponse.Exception;
 
             //notify all subscribers (mainly just graphDB, who will persist any updates)
-            var persist = await _mediator.NotifyAsync(new ObtainedUserProfileNotification(profileResponse.Data));
+            var persist = await _mediator.NotifyAsync(new ObtainedUserProfileNotification(this.LinkedInUserId, profileResponse.Data));
 
             if (persist.HasException())
                 throw persist.Exception;
@@ -57,15 +57,16 @@ namespace ConnectedData.Web.Controllers
 
         public async Task<ActionResult> Summary()
         {
-            var response = await _mediator.RequestAsync<IEnumerable<UserSummaryDto>>(new ObtainUserSummary(this.LinkedInUserId));
+            //var response = await _mediator.RequestAsync<IEnumerable<UserSummaryDto>>(new ObtainUserSummary(this.LinkedInUserId));
 
-            if (response.HasException())
-                throw response.Exception;
-            var result = response.Data.FirstOrDefault(); 
-            if (null == result) throw new InvalidOperationException(string.Format("Unable to gather the LinkedIn Summary Data for user '{0}'", this.LinkedInUserId));
+            //if (response.HasException())
+            //    throw response.Exception;
+            //var result = response.Data.FirstOrDefault(); 
+            //if (null == result) throw new InvalidOperationException(string.Format("Unable to gather the LinkedIn Summary Data for user '{0}'", this.LinkedInUserId));
             
             
-            return View(model: new LinkedInSummaryViewModel() { NumberOfConnections = result.NumberOfConnections, NumberOfIndustries = result.NumberOfIndustries });
+            //return View(model: new LinkedInSummaryViewModel() { NumberOfConnections = result.NumberOfConnections, NumberOfIndustries = result.NumberOfIndustries });
+            return View(model: new LinkedInSummaryViewModel());// { NumberOfConnections = result.NumberOfConnections, NumberOfIndustries = result.NumberOfIndustries });
         }
 
         public JsonResult GraphSummary()

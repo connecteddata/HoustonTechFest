@@ -269,7 +269,9 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -324,6 +326,10 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ConnectedData.AzureSQLServer\ConnectedData.AzureSQLServer.csproj">
+      <Project>{c2b39560-9296-43a1-b61c-b43915420059}</Project>
+      <Name>ConnectedData.AzureSQLServer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ConnectedData.DataTransfer\ConnectedData.DataTransfer.csproj">
       <Project>{58a2548c-b82b-422b-aa2d-eaffaa8aa1ae}</Project>
       <Name>ConnectedData.DataTransfer</Name>

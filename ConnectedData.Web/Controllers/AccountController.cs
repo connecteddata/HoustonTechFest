@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using ConnectedData.Web.Models;
+using ConnectedData.Utils;
 
 namespace ConnectedData.Web.Controllers
 {
@@ -323,19 +324,33 @@ namespace ConnectedData.Web.Controllers
         public async Task<ActionResult> ExternalLoginCallback(string returnUrl)
         {
             var loginInfo = await AuthenticationManager.GetExternalLoginInfoAsync();
-            var claims = loginInfo.ExternalIdentity.Claims;
-            var accessToken = loginInfo.ExternalIdentity.Claims.FirstOrDefault(c => c.Type == "urn:linkedin:accesstoken");
-
-            if (null != accessToken)
-                this.ControllerContext.HttpContext.Session["linkedInAccessToken"] = accessToken.Value;
-
-            if (loginInfo == null)
-            {
-                return RedirectToAction("Login");
-            }
-
+            
             // Sign in the user with this external login provider if the user already has a login
             var result = await SignInManager.ExternalSignInAsync(loginInfo, isPersistent: false);
+
+            //Claim accessToken = null;
+
+            //if (loginInfo == null)
+            //{
+            //    return RedirectToAction("LoginFail");
+            //}
+
+            //if (loginInfo.ExternalIdentity == null)
+            //{
+            //    return RedirectToAction("LoginFail");
+            //}
+
+            //if (loginInfo.ExternalIdentity.Claims.IsNullOrEmpty())
+            //    if (loginInfo == null
+            //        || (null != loginInfo && null == loginInfo.ExternalIdentity)
+            //        || (null != loginInfo && null != loginInfo.ExternalIdentity && null == loginInfo.ExternalIdentity.Claims)
+            //        )
+            //    {
+            //        var claims = loginInfo.ExternalIdentity.Claims;
+            //        accessToken = loginInfo.ExternalIdentity.Claims.FirstOrDefault(c => c.Type == "urn:linkedin:accesstoken");
+            //    }
+
+
             switch (result)
             {
                 case SignInStatus.Success:

@@ -10,17 +10,17 @@ namespace ConnectedData.Messaging
         where TMessage : IMessage
     {
 
-        protected abstract void HandleMessage(TMessage message);
+        protected abstract void HandleProxy(TMessage message);
 
 
         public void Handle(TMessage message)
         {
-            HandleMessage(message);
+            HandleProxy(message);
         }
 
         public Task HandleAsync(TMessage message)
         {
-            return System.Threading.Tasks.Task.Run(() => HandleMessage(message));
+            return System.Threading.Tasks.Task.Run(() => HandleProxy(message));
         }
     }
 }

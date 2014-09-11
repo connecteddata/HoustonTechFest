@@ -35,7 +35,8 @@ namespace ConnectedData.Web.DependencyResolution
                             s.AssemblyContainingType<IMediator>();
                             s.TheCallingAssembly();
                             s.Assembly("ConnectedData.LinkedIn");
-                            s.Assembly("ConnectedData.GraphDB");
+                            //s.Assembly("ConnectedData.GraphDB");
+                            s.Assembly("ConnectedData.AzureSQLServer");
                             s.WithDefaultConventions();
                             s.AddAllTypesOf((typeof(IAsyncRequestHandler<,>)));
                             s.AddAllTypesOf((typeof(IRequestHandler<,>)));
