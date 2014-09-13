@@ -63,6 +63,26 @@ namespace ConnectedData.GraphDB.Tests
         {
             ClearDB();
         }
+
+        [Test]
+        public void Can_Handle_Profile()
+        {
+            //Arrange
+            var profileJsonFileLocation = ConfigurationManager.AppSettings["DummyProfileFileJson"];
+            var profileFileContents = File.ReadAllText(profileJsonFileLocation);
+            var detailedPersonDto =
+                JsonConvert.DeserializeObject<DetailedPersonDto>(profileFileContents);
+
+            var handler = new Notifications.ObtainedProfileNotificationHandler(_graphClient);
+            var message = new Messaging.Notifications.ObtainedUserProfileNotification(detailedPersonDto.Id, detailedPersonDto);
+
+            //Act
+            var start = DateTime.Now.Ticks;
+            Assert.DoesNotThrow(() => handler.Handle(message));
+            var end = DateTime.Now.Ticks;
+            Console.WriteLine("Before Delete Took '{0}' seconds", (new TimeSpan(end - start)).Seconds);
+        }
+
         [Test]
         public void Can_Handle_Bulk_Connections()
         {

@@ -12,4 +12,20 @@ namespace ConnectedData.DataTransfer
         public string Id { get; set; }
         public string Name { get; set; }
     }
+
+    public class CompanyDtoIdComparer : IEqualityComparer<CompanyDto>
+    {
+        public bool Equals(CompanyDto x, CompanyDto y)
+        {
+            if (string.IsNullOrEmpty(x.Id)) return false;
+            return x.Id.Equals(y.Id);
+        }
+
+        public int GetHashCode(CompanyDto obj)
+        {
+            if (string.IsNullOrEmpty(obj.Id)) return string.Empty.GetHashCode();
+            return obj.Id.GetHashCode();
+        }
+    }
+
 }

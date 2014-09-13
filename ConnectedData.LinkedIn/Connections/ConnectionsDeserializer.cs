@@ -15,39 +15,52 @@ namespace ConnectedData.LinkedIn.Connections
         public IEnumerable<PersonDto> Map(string t)
         {
             if (string.IsNullOrEmpty(t)) return new List<PersonDto>();
-            return Map(XDocument.Parse(t));
+            XDocument doc = new XDocument();
+            try
+            {
+                doc = XDocument.Parse(t);
+            }
+            catch
+            {
+                return new List<PersonDto>();
+            }
+            return Map(doc);
         }
 
         public IEnumerable<PersonDto> Map(XDocument doc)
         {
             var maps = new List<PersonDto>();
-            
-            foreach (var personElement in doc.Root.Elements("person").Where(e => !e.Element("first-name").Value.Equals("private")))
-            {
-                var id = personElement.Element("id").Value;
-                var firstName = GetValueFromElement(personElement,"first-name");
-                var lastName = GetValueFromElement(personElement, "last-name");
-                var headline = GetValueFromElement(personElement, "headline");
-                var industry = GetValueFromElement(personElement, "industry");
-                var location = GetLocation(personElement);
-                var countryCode = GetCountryCode(personElement);
-                
-                
-                var pictureUriValue = GetValueFromElement(personElement, "picture-url");
-                Uri pictureUri = pictureUriValue == String.Empty ? null : new Uri(pictureUriValue);
 
-                maps.Add(new PersonDto()
+            try
+            {
+                foreach (var personElement in doc.Root.Elements("person").Where(e => !e.Element("first-name").Value.Equals("private")))
                 {
-                    Id = id,
-                    //FirstName = firstName,
-                    //LastName = lastName,
-                    //Headline = headline,
-                    Industry = industry,
-                    Location = location,
-                    CountryCode = countryCode,
-                    //PictureUrl = pictureUri
-                });
+                    var id = personElement.Element("id").Value;
+                    var firstName = GetValueFromElement(personElement, "first-name");
+                    var lastName = GetValueFromElement(personElement, "last-name");
+                    var headline = GetValueFromElement(personElement, "headline");
+                    var industry = GetValueFromElement(personElement, "industry");
+                    var location = GetLocation(personElement);
+                    var countryCode = GetCountryCode(personElement);
+
+
+                    var pictureUriValue = GetValueFromElement(personElement, "picture-url");
+                    Uri pictureUri = pictureUriValue == String.Empty ? null : new Uri(pictureUriValue);
+
+                    maps.Add(new PersonDto()
+                    {
+                        Id = id,
+                        //FirstName = firstName,
+                        //LastName = lastName,
+                        //Headline = headline,
+                        Industry = industry,
+                        Location = location,
+                        CountryCode = countryCode,
+                        //PictureUrl = pictureUri
+                    });
+                }
             }
+            catch { } //TO DO LOG
             return maps;
         }
 

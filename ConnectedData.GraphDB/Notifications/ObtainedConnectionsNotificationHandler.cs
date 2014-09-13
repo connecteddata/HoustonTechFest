@@ -61,7 +61,7 @@ namespace ConnectedData.GraphDB
                 .Where((Person user) => user.Id == userId)
                 .AndWhere("connection.Id IN {connectionIds}")
                 .WithParam("connectionIds", connectionUserIds)
-                .CreateUnique("(user)-[:LINKED_IN_CONNECTED]-(connection)")
+                .CreateUnique("(user)-[:LINKEDIN_CONNECTION]-(connection)")
                 .ExecuteWithoutResults();
         }
 

@@ -15,23 +15,36 @@ namespace ConnectedData.LinkedIn.Profiles
         public DetailedPersonDto Map(string t)
         {
             if (string.IsNullOrEmpty(t)) return new DetailedPersonDto();
-            return Map(XDocument.Parse(t));
+            var doc = new XDocument();
+            try
+            {
+                doc = XDocument.Parse(t);
+            }
+            catch
+            {
+                return new DetailedPersonDto();
+            }
+            return Map(doc);
         }
 
         public DetailedPersonDto Map(XDocument doc)
         {
             var map = new DetailedPersonDto();
-            var personElement = doc.Root;
-            map.FirstName = GetValueFromElement(personElement, "first-name");
-            map.LastName = GetValueFromElement(personElement, "last-name");
-            map.Headline = GetValueFromElement(personElement, "headline");
-            map.Id = GetValueFromElement(personElement, "id");
-            map.Industry = GetValueFromElement(personElement, "industry");
-            map.Location = GetLocation(personElement);
-            map.CountryCode = GetCountryCode(personElement);
-            map.Educations = GetEducations(personElement);
-            map.Skills = GetSkills(personElement,"skills");
-            map.Positions = GetPositions(personElement, "positions");
+            try
+            {
+                var personElement = doc.Root;
+                map.FirstName = GetValueFromElement(personElement, "first-name");
+                map.LastName = GetValueFromElement(personElement, "last-name");
+                map.Headline = GetValueFromElement(personElement, "headline");
+                map.Id = GetValueFromElement(personElement, "id");
+                map.Industry = GetValueFromElement(personElement, "industry");
+                map.Location = GetLocation(personElement);
+                map.CountryCode = GetCountryCode(personElement);
+                map.Educations = GetEducations(personElement);
+                map.Skills = GetSkills(personElement, "skills");
+                map.Positions = GetPositions(personElement, "positions");
+            }
+            catch { } //TO DO LOG
             return map;
         }
 

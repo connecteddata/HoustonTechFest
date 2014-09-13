@@ -35,7 +35,7 @@ namespace ConnectedData.GraphDB
         }
 
 
-        protected void MergePeople(IEnumerable<Person> people)
+        protected virtual void MergePeople(IEnumerable<Person> people)
         {
             //people in db
             var peopleInDb =
