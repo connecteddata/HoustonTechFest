@@ -27,7 +27,6 @@ namespace ConnectedData.AzureTableStorage.Tests.cs
             _storageAccount = CloudStorageAccount.Parse(ConfigurationManager.AppSettings["AzureTablStorageConnectionString"]);
             _tableClient = _storageAccount.CreateCloudTableClient();
         }
-        [SetUp]
         
         [Test]
         public void Can_Create_Table()
@@ -35,6 +34,7 @@ namespace ConnectedData.AzureTableStorage.Tests.cs
             foreach (var tableName in TEST_TABLES)
             {
                 CloudTable table = _tableClient.GetTableReference("techfest");
+                table.CreateIfNotExists();
                 Console.Write(_storageAccount.TableStorageUri);
                 Assert.True(table.Exists());
             }
@@ -53,6 +53,9 @@ namespace ConnectedData.AzureTableStorage.Tests.cs
 
             // Retrieve a reference to a container. 
             CloudBlobContainer container = blobClient.GetContainerReference("techfest");
+
+            Microsoft.WindowsAzure.Storage.Queue.CloudQueueClient queueClient = storageAccount.CreateCloudQueueClient();
+
 
             // Create the container if it doesn't already exist.
             Assert.True(container.CreateIfNotExists());

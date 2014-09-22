@@ -29,7 +29,6 @@ namespace ConnectedData.Web.DependencyResolution {
             return new Container(
                 c => {
                     c.AddRegistry<DefaultRegistry>();
-                    c.For<IMediator>().Use(Bootstrapper.Mediator);
                 }
                 
             );
