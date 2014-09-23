@@ -6,12 +6,6 @@
         "CountryCode": "us"
     },
     {
-        "Id": "NOsCYpmtuH",
-        "Industry": "Marketing and Advertising",
-        "Location": "Greater Seattle Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "8xgK_5beC6",
         "Industry": "Information Technology and Services",
         "Location": "Greater New York City Area",
@@ -90,8 +84,8 @@
         "CountryCode": "us"
     },
     {
-        "Id": "o6mzzy9OIn",
-        "Industry": "Information Technology and Services",
+        "Id": "BqMnf1XiLI",
+        "Industry": "Oil & Energy",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
@@ -102,8 +96,8 @@
         "CountryCode": "us"
     },
     {
-        "Id": "BqMnf1XiLI",
-        "Industry": "Oil & Energy",
+        "Id": "o6mzzy9OIn",
+        "Industry": "Information Technology and Services",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
@@ -150,9 +144,9 @@
         "CountryCode": "us"
     },
     {
-        "Id": "HroCoZJ3i0",
-        "Industry": "Information Technology and Services",
-        "Location": "Greater Seattle Area",
+        "Id": "elS0fP6ibz",
+        "Industry": "Real Estate",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -162,14 +156,14 @@
         "CountryCode": "us"
     },
     {
-        "Id": "mLl6qy0Z2_",
-        "Industry": "Education Management",
-        "Location": "Houston, Texas Area",
+        "Id": "HroCoZJ3i0",
+        "Industry": "Information Technology and Services",
+        "Location": "Greater Seattle Area",
         "CountryCode": "us"
     },
     {
-        "Id": "elS0fP6ibz",
-        "Industry": "Real Estate",
+        "Id": "mLl6qy0Z2_",
+        "Industry": "Education Management",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
@@ -189,6 +183,12 @@
         "Id": "par06JyTmB",
         "Industry": "Electrical/Electronic Manufacturing",
         "Location": "Austin, Texas Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "I-wvkBku4m",
+        "Industry": "Information Technology and Services",
+        "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
     {
@@ -213,12 +213,6 @@
         "Id": "jRtGV1k7vO",
         "Industry": "Information Technology and Services",
         "Location": "Greater New York City Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "I-wvkBku4m",
-        "Industry": "Information Technology and Services",
-        "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
     {
@@ -264,15 +258,15 @@
         "CountryCode": "gb"
     },
     {
-        "Id": "PTEG_JM5QI",
-        "Industry": "Information Technology and Services",
-        "Location": "Dallas/Fort Worth Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "tVzjIvK9Jb",
         "Industry": "Marketing and Advertising",
         "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "PTEG_JM5QI",
+        "Industry": "Information Technology and Services",
+        "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
     {
@@ -284,7 +278,7 @@
     {
         "Id": "TA1CmKx_xQ",
         "Industry": "Computer Software",
-        "Location": "Greater New York City Area",
+        "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
     {
@@ -300,15 +294,15 @@
         "CountryCode": "us"
     },
     {
-        "Id": "w5u7bU-LAt",
-        "Industry": "Information Technology and Services",
-        "Location": "Washington D.C. Metro Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "O_K085m0Yy",
         "Industry": "Information Technology and Services",
         "Location": "Greater Atlanta Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "w5u7bU-LAt",
+        "Industry": "Information Technology and Services",
+        "Location": "Washington D.C. Metro Area",
         "CountryCode": "us"
     },
     {
@@ -324,15 +318,15 @@
         "CountryCode": "us"
     },
     {
-        "Id": "coONNP3Lx0",
-        "Industry": "Information Technology and Services",
-        "Location": "Dallas/Fort Worth Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "OS3tjhxYjm",
         "Industry": "Information Technology and Services",
         "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "coONNP3Lx0",
+        "Industry": "Information Technology and Services",
+        "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
     {
@@ -402,15 +396,15 @@
         "CountryCode": "us"
     },
     {
-        "Id": "-tB8T2phOj",
-        "Industry": "Information Technology and Services",
-        "Location": "West Palm Beach, Florida Area",
+        "Id": "BGmfMRWxBO",
+        "Industry": "Oil & Energy",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
-        "Id": "IBUAtldIyA",
+        "Id": "-tB8T2phOj",
         "Industry": "Information Technology and Services",
-        "Location": "Houston, Texas Area",
+        "Location": "West Palm Beach, Florida Area",
         "CountryCode": "us"
     },
     {
@@ -420,8 +414,14 @@
         "CountryCode": "us"
     },
     {
-        "Id": "BGmfMRWxBO",
-        "Industry": "Oil & Energy",
+        "Id": "IBUAtldIyA",
+        "Industry": "Information Technology and Services",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "thU2FejrAK",
+        "Industry": "Information Technology and Services",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
@@ -438,9 +438,9 @@
         "CountryCode": "us"
     },
     {
-        "Id": "thU2FejrAK",
-        "Industry": "Information Technology and Services",
-        "Location": "Houston, Texas Area",
+        "Id": "O8WHQIm19J",
+        "Industry": "Higher Education",
+        "Location": "Rapid City, South Dakota Area",
         "CountryCode": "us"
     },
     {
@@ -456,25 +456,19 @@
         "CountryCode": "us"
     },
     {
-        "Id": "O8WHQIm19J",
-        "Industry": "Higher Education",
-        "Location": "Rapid City, South Dakota Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "WpYK6vc4DQ",
         "Industry": "Information Technology and Services",
         "Location": "Washington D.C. Metro Area",
         "CountryCode": "us"
     },
     {
-        "Id": "jG1tjTS3SY",
+        "Id": "pi6tpnNqJx",
         "Industry": "Information Technology and Services",
         "Location": "Greater Denver Area",
         "CountryCode": "us"
     },
     {
-        "Id": "pi6tpnNqJx",
+        "Id": "jG1tjTS3SY",
         "Industry": "Information Technology and Services",
         "Location": "Greater Denver Area",
         "CountryCode": "us"
@@ -498,12 +492,6 @@
         "CountryCode": "us"
     },
     {
-        "Id": "cThFtDn5Pi",
-        "Industry": "Information Technology and Services",
-        "Location": "Dallas/Fort Worth Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "zTyhTY6fMN",
         "Industry": "Higher Education",
         "Location": "Rapid City, South Dakota Area",
@@ -516,9 +504,9 @@
         "CountryCode": "us"
     },
     {
-        "Id": "5d_lvLnFri",
-        "Industry": "Management Consulting",
-        "Location": "San Francisco Bay Area",
+        "Id": "cThFtDn5Pi",
+        "Industry": "Information Technology and Services",
+        "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
     {
@@ -528,9 +516,9 @@
         "CountryCode": "us"
     },
     {
-        "Id": "XdQvJpkelJ",
-        "Industry": "Health, Wellness and Fitness",
-        "Location": "Greater Detroit Area",
+        "Id": "5d_lvLnFri",
+        "Industry": "Management Consulting",
+        "Location": "San Francisco Bay Area",
         "CountryCode": "us"
     },
     {
@@ -540,15 +528,21 @@
         "CountryCode": "us"
     },
     {
-        "Id": "IRnW959ebu",
-        "Industry": "Management Consulting",
-        "Location": "Greater Chicago Area",
+        "Id": "XdQvJpkelJ",
+        "Industry": "Health, Wellness and Fitness",
+        "Location": "Greater Detroit Area",
         "CountryCode": "us"
     },
     {
         "Id": "Yo_B9xNWh8",
         "Industry": "Information Technology and Services",
         "Location": "Washington D.C. Metro Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "IRnW959ebu",
+        "Industry": "Management Consulting",
+        "Location": "Greater Chicago Area",
         "CountryCode": "us"
     },
     {
@@ -606,20 +600,20 @@
         "CountryCode": "us"
     },
     {
+        "Id": "b6BAn3TCiN",
+        "Industry": "Textiles",
+        "Location": "Greater New York City Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "T5-0ubV1Md",
         "Industry": "Information Technology and Services",
         "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
     {
-        "Id": "b6BAn3TCiN",
-        "Industry": "Luxury Goods & Jewelry",
-        "Location": "Greater New York City Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "B3NSfCi34a",
-        "Industry": "Hospital & Health Care",
+        "Industry": "Human Resources",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
@@ -678,15 +672,15 @@
         "CountryCode": "us"
     },
     {
-        "Id": "ssU_NfDdLI",
-        "Industry": "Computer Software",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "KbvFefGxVs",
         "Industry": "Medical Devices",
         "Location": "Greater Minneapolis-St. Paul Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "ssU_NfDdLI",
+        "Industry": "Computer Software",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -702,6 +696,12 @@
         "CountryCode": "us"
     },
     {
+        "Id": "8ifUUWlLOg",
+        "Industry": "Information Technology and Services",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "OBhP1ZMXyg",
         "Industry": "Computer Software",
         "Location": "Austin, Texas Area",
@@ -711,12 +711,6 @@
         "Id": "vd3dPVBUUQ",
         "Industry": "Computer Software",
         "Location": "Wichita, Kansas Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "8ifUUWlLOg",
-        "Industry": "Information Technology and Services",
-        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -732,8 +726,20 @@
         "CountryCode": "us"
     },
     {
+        "Id": "2x4NYseowt",
+        "Industry": "Information Technology and Services",
+        "Location": "San Francisco Bay Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "s1wFJnmrOX",
         "Industry": "Commercial Real Estate",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "gyoy3zOw4I",
+        "Industry": "Information Technology and Services",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
@@ -744,26 +750,14 @@
         "CountryCode": "us"
     },
     {
-        "Id": "gCG-xM6-Vy",
-        "Industry": "Computer Hardware",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "wjpuiJ1uFy",
         "Industry": "Information Technology and Services",
         "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
     {
-        "Id": "gyoy3zOw4I",
-        "Industry": "Information Technology and Services",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "Q-MywIYMp6",
-        "Industry": "Aviation & Aerospace",
+        "Id": "gCG-xM6-Vy",
+        "Industry": "Computer Hardware",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
@@ -774,9 +768,9 @@
         "CountryCode": "us"
     },
     {
-        "Id": "2x4NYseowt",
-        "Industry": "Information Technology and Services",
-        "Location": "San Francisco Bay Area",
+        "Id": "Q-MywIYMp6",
+        "Industry": "Aviation & Aerospace",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -792,20 +786,26 @@
         "CountryCode": "us"
     },
     {
-        "Id": "mzZWiCCsZI",
-        "Industry": "Internet",
-        "Location": "Greater New York City Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "DO3-ITECGd",
         "Industry": "Oil & Energy",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
+        "Id": "mzZWiCCsZI",
+        "Industry": "Internet",
+        "Location": "Greater New York City Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "LycOpeeCa-",
         "Industry": "Utilities",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "G8agGtHTu6",
+        "Industry": "Insurance",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
@@ -822,20 +822,20 @@
         "CountryCode": "us"
     },
     {
-        "Id": "fZTR6mBk4J",
-        "Industry": "Computer Software",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "G8agGtHTu6",
-        "Industry": "Insurance",
-        "Location": "Houston, Texas Area",
+        "Id": "gW_QRVXfgo",
+        "Industry": "Online Media",
+        "Location": "Greater New York City Area",
         "CountryCode": "us"
     },
     {
         "Id": "JGOilHyhXb",
         "Industry": "Information Technology and Services",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "fZTR6mBk4J",
+        "Industry": "Computer Software",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
@@ -846,21 +846,15 @@
         "CountryCode": "us"
     },
     {
-        "Id": "VPgH2auKOr",
-        "Industry": "Leisure, Travel & Tourism",
-        "Location": "Greater Seattle Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "6shcM7_NFb",
         "Industry": "Media Production",
         "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
     {
-        "Id": "gW_QRVXfgo",
-        "Industry": "Online Media",
-        "Location": "Greater New York City Area",
+        "Id": "VPgH2auKOr",
+        "Industry": "Leisure, Travel & Tourism",
+        "Location": "Greater Seattle Area",
         "CountryCode": "us"
     },
     {
@@ -870,27 +864,15 @@
         "CountryCode": "us"
     },
     {
-        "Id": "c2Z79Ouccd",
-        "Industry": "Information Technology and Services",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "l5khQrwnXL",
         "Industry": "Information Technology and Services",
         "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
     {
-        "Id": "51P65_gydw",
-        "Industry": "Information Services",
-        "Location": "Greater Seattle Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "Lgk39BTFfM",
-        "Industry": "Internet",
-        "Location": "San Francisco Bay Area",
+        "Id": "c2Z79Ouccd",
+        "Industry": "Information Technology and Services",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -900,15 +882,27 @@
         "CountryCode": "us"
     },
     {
-        "Id": "ugvMMmAm1m",
-        "Industry": "Logistics and Supply Chain",
-        "Location": "Houston, Texas Area",
+        "Id": "51P65_gydw",
+        "Industry": "Information Services",
+        "Location": "Greater Seattle Area",
         "CountryCode": "us"
     },
     {
         "Id": "3_SEIl9iIG",
         "Industry": "Computer Software",
         "Location": "San Francisco Bay Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "Lgk39BTFfM",
+        "Industry": "Internet",
+        "Location": "San Francisco Bay Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "ugvMMmAm1m",
+        "Industry": "Logistics and Supply Chain",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -948,9 +942,9 @@
         "CountryCode": "us"
     },
     {
-        "Id": "fHKcDiG0Vo",
-        "Industry": "Utilities",
-        "Location": "Rapid City, South Dakota Area",
+        "Id": "2Tg_1X6xsv",
+        "Industry": "Information Technology and Services",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -960,9 +954,9 @@
         "CountryCode": "us"
     },
     {
-        "Id": "2Tg_1X6xsv",
-        "Industry": "Information Technology and Services",
-        "Location": "Houston, Texas Area",
+        "Id": "fHKcDiG0Vo",
+        "Industry": "Utilities",
+        "Location": "Rapid City, South Dakota Area",
         "CountryCode": "us"
     },
     {
@@ -978,9 +972,21 @@
         "CountryCode": "us"
     },
     {
+        "Id": "G41_aPfnvN",
+        "Industry": "Oil & Energy",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "tF32r8B4Xm",
         "Industry": "Information Technology and Services",
         "Location": "Greater Chicago Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "fBnHEYYxdk",
+        "Industry": "Oil & Energy",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -996,9 +1002,9 @@
         "CountryCode": "us"
     },
     {
-        "Id": "G41_aPfnvN",
-        "Industry": "Oil & Energy",
-        "Location": "Houston, Texas Area",
+        "Id": "GUYW2sIjzf",
+        "Industry": "Information Technology and Services",
+        "Location": "Washington D.C. Metro Area",
         "CountryCode": "us"
     },
     {
@@ -1008,21 +1014,9 @@
         "CountryCode": "us"
     },
     {
-        "Id": "fBnHEYYxdk",
-        "Industry": "Oil & Energy",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "GUYW2sIjzf",
-        "Industry": "Information Technology and Services",
-        "Location": "Washington D.C. Metro Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "otjLbqAhQT",
-        "Industry": "Law Practice",
-        "Location": "Houston, Texas Area",
+        "Id": "PAvWFHesv_",
+        "Industry": "Computer Software",
+        "Location": "Austin, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -1038,15 +1032,15 @@
         "CountryCode": "us"
     },
     {
-        "Id": "PAvWFHesv_",
-        "Industry": "Computer Software",
-        "Location": "Austin, Texas Area",
+        "Id": "otjLbqAhQT",
+        "Industry": "Law Practice",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
-        "Id": "YZkbMMcp9Z",
-        "Industry": "Computer Software",
-        "Location": "Greater Seattle Area",
+        "Id": "8SD1Cs95CM",
+        "Industry": "Information Technology and Services",
+        "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
     {
@@ -1056,9 +1050,21 @@
         "CountryCode": "us"
     },
     {
+        "Id": "YZkbMMcp9Z",
+        "Industry": "Computer Software",
+        "Location": "Greater Seattle Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "-Q3i71no1i",
         "Industry": "Computer Software",
         "Location": "Dallas/Fort Worth Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "NC5KC-SaoE",
+        "Industry": "Information Technology and Services",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -1069,30 +1075,6 @@
     },
     {
         "Id": "1m3itkKTAg",
-        "Industry": "Information Technology and Services",
-        "Location": "Dallas/Fort Worth Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "t0CgpeXtK6",
-        "Industry": "Utilities",
-        "Location": "Oklahoma City, Oklahoma Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "e2TMc14GOS",
-        "Industry": "Information Technology and Services",
-        "Location": "Dallas/Fort Worth Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "8SD1Cs95CM",
-        "Industry": "Information Technology and Services",
-        "Location": "Dallas/Fort Worth Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "Wjh3xpicaW",
         "Industry": "Information Technology and Services",
         "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
@@ -1110,6 +1092,24 @@
         "CountryCode": "us"
     },
     {
+        "Id": "t0CgpeXtK6",
+        "Industry": "Utilities",
+        "Location": "Oklahoma City, Oklahoma Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "e2TMc14GOS",
+        "Industry": "Information Technology and Services",
+        "Location": "Dallas/Fort Worth Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "Wjh3xpicaW",
+        "Industry": "Information Technology and Services",
+        "Location": "Dallas/Fort Worth Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "IMVVEkTG43",
         "Industry": "Information Technology and Services",
         "Location": "Greater Atlanta Area",
@@ -1119,12 +1119,6 @@
         "Id": "XsBcjl5i4x",
         "Industry": "Information Technology and Services",
         "Location": "Dallas/Fort Worth Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "NC5KC-SaoE",
-        "Industry": "Information Technology and Services",
-        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -1140,15 +1134,15 @@
         "CountryCode": "us"
     },
     {
-        "Id": "rIhmyyfe8U",
+        "Id": "5_jAIkz0Wh",
         "Industry": "Information Technology and Services",
-        "Location": "Greater Seattle Area",
+        "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
     {
-        "Id": "eZE0h8HvNX",
-        "Industry": "Hospital & Health Care",
-        "Location": "Dallas/Fort Worth Area",
+        "Id": "rIhmyyfe8U",
+        "Industry": "Information Technology and Services",
+        "Location": "Greater Seattle Area",
         "CountryCode": "us"
     },
     {
@@ -1170,27 +1164,21 @@
         "CountryCode": "us"
     },
     {
+        "Id": "eZE0h8HvNX",
+        "Industry": "Hospital & Health Care",
+        "Location": "Dallas/Fort Worth Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "m8_qqiHCLB",
         "Industry": "Information Technology and Services",
         "Location": "Eugene, Oregon Area",
         "CountryCode": "us"
     },
     {
-        "Id": "5_jAIkz0Wh",
-        "Industry": "Information Technology and Services",
-        "Location": "Dallas/Fort Worth Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "mGQosjHAtF",
         "Industry": "Information Technology and Services",
         "Location": "Charlottesville, Virginia Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "If5SqUN33L",
-        "Industry": "Computer Software",
-        "Location": "Greater New York City Area",
         "CountryCode": "us"
     },
     {
@@ -1206,9 +1194,27 @@
         "CountryCode": "us"
     },
     {
+        "Id": "If5SqUN33L",
+        "Industry": "Computer Software",
+        "Location": "Greater New York City Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "g0dT2TyZpr",
         "Industry": "Management Consulting",
         "Location": "Dallas/Fort Worth Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "jqV8-Lhfa4",
+        "Industry": "Information Technology and Services",
+        "Location": "Greater Seattle Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "pOM4jdVKuO",
+        "Industry": "Information Technology and Services",
+        "Location": "Greater Seattle Area",
         "CountryCode": "us"
     },
     {
@@ -1221,18 +1227,6 @@
         "Id": "n3gnyEB3qV",
         "Industry": "Information Technology and Services",
         "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "pOM4jdVKuO",
-        "Industry": "Information Technology and Services",
-        "Location": "Greater Seattle Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "jqV8-Lhfa4",
-        "Industry": "Information Technology and Services",
-        "Location": "Greater Seattle Area",
         "CountryCode": "us"
     },
     {
@@ -1290,8 +1284,8 @@
         "CountryCode": "us"
     },
     {
-        "Id": "rrI8-COPdu",
-        "Industry": "Computer Software",
+        "Id": "EH_DrwNL8S",
+        "Industry": "Construction",
         "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
@@ -1299,6 +1293,12 @@
         "Id": "fLUp77MnYz",
         "Industry": "Chemicals",
         "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "rrI8-COPdu",
+        "Industry": "Computer Software",
+        "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
     {
@@ -1310,6 +1310,12 @@
     {
         "Id": "inpWSQKw2V",
         "Industry": "Information Technology and Services",
+        "Location": "Dallas/Fort Worth Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "5MpjQyG4Sk",
+        "Industry": "Computer Software",
         "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
@@ -1326,32 +1332,20 @@
         "CountryCode": "us"
     },
     {
-        "Id": "5MpjQyG4Sk",
-        "Industry": "Computer Software",
-        "Location": "Dallas/Fort Worth Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "1Ufgi6GNko",
         "Industry": "Information Technology and Services",
         "Location": "Greater Seattle Area",
         "CountryCode": "us"
     },
     {
-        "Id": "ZBUVSQe4wF",
-        "Industry": "Computer Software",
+        "Id": "Y_V-3fpbJd",
+        "Industry": "Information Services",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
-        "Id": "EH_DrwNL8S",
-        "Industry": "Construction",
-        "Location": "Dallas/Fort Worth Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "Y_V-3fpbJd",
-        "Industry": "Information Services",
+        "Id": "ZBUVSQe4wF",
+        "Industry": "Computer Software",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
@@ -1374,15 +1368,15 @@
         "CountryCode": "us"
     },
     {
-        "Id": "r9ct2ETatl",
-        "Industry": "Health, Wellness and Fitness",
-        "Location": "Greater Denver Area",
+        "Id": "0zlo0TLI7m",
+        "Industry": "Internet",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
-        "Id": "m-hmWAV0nV",
-        "Industry": "Information Technology and Services",
-        "Location": "Greater Detroit Area",
+        "Id": "r9ct2ETatl",
+        "Industry": "Health, Wellness and Fitness",
+        "Location": "Greater Denver Area",
         "CountryCode": "us"
     },
     {
@@ -1392,9 +1386,21 @@
         "CountryCode": "us"
     },
     {
+        "Id": "m-hmWAV0nV",
+        "Industry": "Information Technology and Services",
+        "Location": "Greater Detroit Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "mboo8TnZs-",
         "Industry": "Management Consulting",
         "Location": "Tallahassee, Florida Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "Zw1g7_O6oA",
+        "Industry": "Computer Software",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -1410,38 +1416,8 @@
         "CountryCode": "us"
     },
     {
-        "Id": "Zw1g7_O6oA",
-        "Industry": "Computer Software",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "0zlo0TLI7m",
-        "Industry": "Internet",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "fJ27z5Toyc",
-        "Industry": "Marketing and Advertising",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "6sjTXFMlOb",
         "Industry": "Aviation & Aerospace",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "X5x8-48ENb",
-        "Industry": "Computer Software",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "MF6LFujTdj",
-        "Industry": "Information Technology and Services",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
@@ -1452,15 +1428,57 @@
         "CountryCode": "us"
     },
     {
+        "Id": "MF6LFujTdj",
+        "Industry": "Information Technology and Services",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "X5x8-48ENb",
+        "Industry": "Computer Software",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "fJ27z5Toyc",
+        "Industry": "Marketing and Advertising",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "rN6z9eRbMb",
         "Industry": "Computer Software",
         "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
     {
+        "Id": "vfdiajBwuM",
+        "Industry": "Information Technology and Services",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "nmMzbi1JEa",
+        "Industry": "Management Consulting",
+        "Location": "Greater Seattle Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "hmXe8Uewk_",
         "Industry": "Information Technology and Services",
         "Location": "Greater Seattle Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "wRIo0SIbYF",
+        "Industry": "Oil & Energy",
+        "Location": "Tulsa, Oklahoma Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "SHjhcCBl2l",
+        "Industry": "Computer Software",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -1476,33 +1494,21 @@
         "CountryCode": "us"
     },
     {
-        "Id": "SHjhcCBl2l",
-        "Industry": "Computer Software",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "kw_qdBOJaG",
         "Industry": "Information Technology and Services",
         "Location": "Washington D.C. Metro Area",
         "CountryCode": "us"
     },
     {
-        "Id": "wRIo0SIbYF",
-        "Industry": "Oil & Energy",
-        "Location": "Tulsa, Oklahoma Area",
+        "Id": "MNGrgfhklm",
+        "Industry": "Sports",
+        "Location": "Greater Seattle Area",
         "CountryCode": "us"
     },
     {
         "Id": "ujLz1tQYoL",
         "Industry": "Information Technology and Services",
         "Location": "Greater Seattle Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "vfdiajBwuM",
-        "Industry": "Information Technology and Services",
-        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -1530,39 +1536,15 @@
         "CountryCode": "us"
     },
     {
-        "Id": "MNGrgfhklm",
-        "Industry": "Sports",
-        "Location": "Greater Seattle Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "CD5tAoNA8v",
-        "Industry": "Information Technology and Services",
-        "Location": "Dallas/Fort Worth Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "BTYqggIZ8M",
         "Industry": "Information Technology and Services",
         "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
     {
-        "Id": "J0t-SztnYX",
+        "Id": "CD5tAoNA8v",
         "Industry": "Information Technology and Services",
         "Location": "Dallas/Fort Worth Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "0dH5NpIssu",
-        "Industry": "Information Technology and Services",
-        "Location": "Dallas/Fort Worth Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "LGSqkHZZu0",
-        "Industry": "Oil & Energy",
-        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -1578,6 +1560,30 @@
         "CountryCode": "us"
     },
     {
+        "Id": "J0t-SztnYX",
+        "Industry": "Information Technology and Services",
+        "Location": "Dallas/Fort Worth Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "LGSqkHZZu0",
+        "Industry": "Oil & Energy",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "0dH5NpIssu",
+        "Industry": "Information Technology and Services",
+        "Location": "Dallas/Fort Worth Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "cXntm4JRH6",
+        "Industry": "Computer Software",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "GFFPyGlpie",
         "Industry": "Information Technology and Services",
         "Location": "Houston, Texas Area",
@@ -1587,12 +1593,6 @@
         "Id": "RSMnjasYB1",
         "Industry": "Information Technology and Services",
         "Location": "Greater Denver Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "cXntm4JRH6",
-        "Industry": "Computer Software",
-        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -1614,15 +1614,15 @@
         "CountryCode": "us"
     },
     {
-        "Id": "OzfCAdZ6Ap",
-        "Industry": "Information Technology and Services",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "xcDJUCbGaU",
         "Industry": "Information Technology and Services",
         "Location": "Dallas/Fort Worth Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "OzfCAdZ6Ap",
+        "Industry": "Information Technology and Services",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -1644,9 +1644,9 @@
         "CountryCode": "us"
     },
     {
-        "Id": "eg5Q9PBejv",
+        "Id": "I2EA8fngOc",
         "Industry": "Information Technology and Services",
-        "Location": "Greater New York City Area",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -1656,32 +1656,26 @@
         "CountryCode": "us"
     },
     {
-        "Id": "pD5lvCFnfs",
-        "Industry": "Information Technology and Services",
-        "Location": "Dallas/Fort Worth Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "nmMzbi1JEa",
-        "Industry": "Management Consulting",
-        "Location": "Greater Seattle Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "7NEB5b-SuJ",
         "Industry": "Information Technology and Services",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
-        "Id": "FanwV3sTzU",
-        "Industry": "Aviation & Aerospace",
-        "Location": "Houston, Texas Area",
+        "Id": "pD5lvCFnfs",
+        "Industry": "Information Technology and Services",
+        "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
     {
-        "Id": "qMvHQUuRAH",
-        "Industry": "Oil & Energy",
+        "Id": "eg5Q9PBejv",
+        "Industry": "Information Technology and Services",
+        "Location": "Greater New York City Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "FanwV3sTzU",
+        "Industry": "Aviation & Aerospace",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
@@ -1692,14 +1686,8 @@
         "CountryCode": "us"
     },
     {
-        "Id": "SeROvjTr6X",
+        "Id": "qMvHQUuRAH",
         "Industry": "Oil & Energy",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "I2EA8fngOc",
-        "Industry": "Information Technology and Services",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
@@ -1710,15 +1698,21 @@
         "CountryCode": "us"
     },
     {
-        "Id": "5fiJDDdOSm",
-        "Industry": "Information Technology and Services",
-        "Location": "Dallas/Fort Worth Area",
+        "Id": "SeROvjTr6X",
+        "Industry": "Oil & Energy",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
-        "Id": "Fo9pYxgR22",
-        "Industry": "Construction",
-        "Location": "Houston, Texas Area",
+        "Id": "QR1beJr3V1",
+        "Industry": "Computer Software",
+        "Location": "Greater Seattle Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "5fiJDDdOSm",
+        "Industry": "Information Technology and Services",
+        "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
     {
@@ -1728,9 +1722,9 @@
         "CountryCode": "us"
     },
     {
-        "Id": "REjp9LvSMF",
-        "Industry": "Information Technology and Services",
-        "Location": "United States",
+        "Id": "Fo9pYxgR22",
+        "Industry": "Construction",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -1743,6 +1737,12 @@
         "Id": "ahShbZZ_0G",
         "Industry": "Computer Software",
         "Location": "Greater Seattle Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "REjp9LvSMF",
+        "Industry": "Information Technology and Services",
+        "Location": "United States",
         "CountryCode": "us"
     },
     {
@@ -1764,21 +1764,9 @@
         "CountryCode": "us"
     },
     {
-        "Id": "fOKNGtoEbR",
-        "Industry": "Newspapers",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "hpK59O6Ws7",
         "Industry": "Management Consulting",
         "Location": "Greater Seattle Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "lQWVRAHpsU",
-        "Industry": "Information Technology and Services",
-        "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
     {
@@ -1788,9 +1776,15 @@
         "CountryCode": "us"
     },
     {
-        "Id": "QR1beJr3V1",
-        "Industry": "Computer Software",
-        "Location": "Greater Seattle Area",
+        "Id": "lQWVRAHpsU",
+        "Industry": "Information Technology and Services",
+        "Location": "Dallas/Fort Worth Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "fOKNGtoEbR",
+        "Industry": "Newspapers",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -1806,14 +1800,20 @@
         "CountryCode": "us"
     },
     {
-        "Id": "YlC0hl_0vV",
-        "Industry": "Oil & Energy",
+        "Id": "sls5lGDRa3",
+        "Industry": "Computer Software",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
-        "Id": "sls5lGDRa3",
-        "Industry": "Computer Software",
+        "Id": "aQzrgaelNW",
+        "Industry": "Information Technology and Services",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "YlC0hl_0vV",
+        "Industry": "Oil & Energy",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
@@ -1824,21 +1824,15 @@
         "CountryCode": "us"
     },
     {
-        "Id": "aQzrgaelNW",
-        "Industry": "Information Technology and Services",
-        "Location": "Houston, Texas Area",
+        "Id": "eE0Vyp3mww",
+        "Industry": "Computer Software",
+        "Location": "Greater Seattle Area",
         "CountryCode": "us"
     },
     {
         "Id": "S5H8N3gf6S",
         "Industry": "Information Technology and Services",
         "Location": "Dallas/Fort Worth Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "eE0Vyp3mww",
-        "Industry": "Computer Software",
-        "Location": "Greater Seattle Area",
         "CountryCode": "us"
     },
     {
@@ -1878,15 +1872,27 @@
         "CountryCode": "us"
     },
     {
+        "Id": "R-uGywWsOA",
+        "Industry": "Aviation & Aerospace",
+        "Location": "Cedar Rapids, Iowa Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "f8yhib_w_h",
+        "Industry": "Information Technology and Services",
+        "Location": "Dallas/Fort Worth Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "yRxpvxAKRJ",
         "Industry": "Broadcast Media",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
-        "Id": "R-uGywWsOA",
-        "Industry": "Aviation & Aerospace",
-        "Location": "Cedar Rapids, Iowa Area",
+        "Id": "tGZnhZkF8K",
+        "Industry": "Information Technology and Services",
+        "Location": "Greater Los Angeles Area",
         "CountryCode": "us"
     },
     {
@@ -1896,16 +1902,16 @@
         "CountryCode": "us"
     },
     {
-        "Id": "pobl4jo-cx",
-        "Industry": "Oil & Energy",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "psBHp8iXA9",
         "Industry": "Leisure, Travel & Tourism",
         "Location": "London, United Kingdom",
         "CountryCode": "gb"
+    },
+    {
+        "Id": "pobl4jo-cx",
+        "Industry": "Oil & Energy",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
     },
     {
         "Id": "qseiRYG1Bq",
@@ -1920,27 +1926,9 @@
         "CountryCode": "us"
     },
     {
-        "Id": "tGZnhZkF8K",
-        "Industry": "Information Technology and Services",
-        "Location": "Greater Los Angeles Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "f8yhib_w_h",
-        "Industry": "Information Technology and Services",
-        "Location": "Dallas/Fort Worth Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "O6bUPcUXSP",
         "Industry": "Information Technology and Services",
         "Location": "Greater Seattle Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "EQik3vJqq4",
-        "Industry": "Information Technology and Services",
-        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -1957,6 +1945,12 @@
     },
     {
         "Id": "dLzkV81d1S",
+        "Industry": "Information Technology and Services",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "EQik3vJqq4",
         "Industry": "Information Technology and Services",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
@@ -1986,14 +1980,8 @@
         "CountryCode": "us"
     },
     {
-        "Id": "YBLifljwsK",
-        "Industry": "Computer Software",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "1Bt-Ek2bQ1",
-        "Industry": "Electrical/Electronic Manufacturing",
+        "Industry": "Real Estate",
         "Location": "Cedar Rapids, Iowa Area",
         "CountryCode": "us"
     },
@@ -2004,9 +1992,9 @@
         "CountryCode": "us"
     },
     {
-        "Id": "DckqqkBS8h",
-        "Industry": "Wholesale",
-        "Location": "Dallas/Fort Worth Area",
+        "Id": "YBLifljwsK",
+        "Industry": "Computer Software",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -2028,6 +2016,18 @@
         "CountryCode": "us"
     },
     {
+        "Id": "DckqqkBS8h",
+        "Industry": "Wholesale",
+        "Location": "Dallas/Fort Worth Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "jwdfQkld6E",
+        "Industry": "Information Technology and Services",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "Ul_3BGnXsI",
         "Industry": "Information Technology and Services",
         "Location": "Dallas/Fort Worth Area",
@@ -2035,12 +2035,6 @@
     },
     {
         "Id": "-Pw46MCkTf",
-        "Industry": "Information Technology and Services",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "jwdfQkld6E",
         "Industry": "Information Technology and Services",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
@@ -2058,6 +2052,12 @@
         "CountryCode": "us"
     },
     {
+        "Id": "uA-LbhqDxK",
+        "Industry": "Computer Software",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "Q0meQqxMpb",
         "Industry": "Information Technology and Services",
         "Location": "Greater Seattle Area",
@@ -2070,21 +2070,9 @@
         "CountryCode": "us"
     },
     {
-        "Id": "uA-LbhqDxK",
-        "Industry": "Computer Software",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "MasJ_XoyUo",
         "Industry": "Computer Software",
         "Location": "Greater Seattle Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "wlRlXmKMGA",
-        "Industry": "Computer Software",
-        "Location": "Greater Detroit Area",
         "CountryCode": "us"
     },
     {
@@ -2094,14 +2082,32 @@
         "CountryCode": "us"
     },
     {
+        "Id": "wlRlXmKMGA",
+        "Industry": "Computer Software",
+        "Location": "Greater Detroit Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "63t2mZr349",
+        "Industry": "Information Technology and Services",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "oYezrThymG",
+        "Industry": "Information Technology and Services",
+        "Location": "Dallas/Fort Worth Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "oR7rrZEQXt",
         "Industry": "Marketing and Advertising",
         "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
     {
-        "Id": "63t2mZr349",
-        "Industry": "Information Technology and Services",
+        "Id": "uKuF7HoS6T",
+        "Industry": "Computer Software",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
@@ -2118,9 +2124,9 @@
         "CountryCode": "us"
     },
     {
-        "Id": "oYezrThymG",
-        "Industry": "Information Technology and Services",
-        "Location": "Dallas/Fort Worth Area",
+        "Id": "-35d_oGHMP",
+        "Industry": "Computer Software",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -2136,8 +2142,8 @@
         "CountryCode": "us"
     },
     {
-        "Id": "-35d_oGHMP",
-        "Industry": "Computer Software",
+        "Id": "KccU1xDTOy",
+        "Industry": "Information Technology and Services",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
@@ -2154,22 +2160,16 @@
         "CountryCode": "us"
     },
     {
-        "Id": "ocm3x2oUYs",
-        "Industry": "Aviation & Aerospace",
-        "Location": "Montreal, Canada Area",
-        "CountryCode": "ca"
-    },
-    {
         "Id": "4HlfuyvBL5",
         "Industry": "Information Technology and Services",
         "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
     {
-        "Id": "KccU1xDTOy",
-        "Industry": "Information Technology and Services",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
+        "Id": "ocm3x2oUYs",
+        "Industry": "Aviation & Aerospace",
+        "Location": "Montreal, Canada Area",
+        "CountryCode": "ca"
     },
     {
         "Id": "Qh1GSep5Li",
@@ -2178,9 +2178,9 @@
         "CountryCode": "us"
     },
     {
-        "Id": "uKuF7HoS6T",
-        "Industry": "Computer Software",
-        "Location": "Houston, Texas Area",
+        "Id": "JrUgPf0bxk",
+        "Industry": "Human Resources",
+        "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
     {
@@ -2190,19 +2190,13 @@
         "CountryCode": "us"
     },
     {
-        "Id": "Af8bnvINhj",
+        "Id": "qdADwAJjRW",
         "Industry": "Information Technology and Services",
         "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
     },
     {
-        "Id": "jTXg-UP8Qz",
-        "Industry": "Information Technology and Services",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "qdADwAJjRW",
+        "Id": "Af8bnvINhj",
         "Industry": "Information Technology and Services",
         "Location": "Dallas/Fort Worth Area",
         "CountryCode": "us"
@@ -2214,9 +2208,9 @@
         "CountryCode": "us"
     },
     {
-        "Id": "JrUgPf0bxk",
-        "Industry": "Human Resources",
-        "Location": "Dallas/Fort Worth Area",
+        "Id": "jTXg-UP8Qz",
+        "Industry": "Information Technology and Services",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -2232,12 +2226,6 @@
         "CountryCode": "us"
     },
     {
-        "Id": "7Os-2mSzjS",
-        "Industry": "Medical Devices",
-        "Location": "Greater Chicago Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "jDQk_pcWBq",
         "Industry": "Information Technology and Services",
         "Location": "Greater Los Angeles Area",
@@ -2250,15 +2238,21 @@
         "CountryCode": "us"
     },
     {
+        "Id": "UDGU8PqAeB",
+        "Industry": "Information Technology and Services",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "m94U6nBYDI",
         "Industry": "Photography",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
-        "Id": "UDGU8PqAeB",
-        "Industry": "Information Technology and Services",
-        "Location": "Houston, Texas Area",
+        "Id": "7Os-2mSzjS",
+        "Industry": "Medical Devices",
+        "Location": "Greater Chicago Area",
         "CountryCode": "us"
     },
     {
@@ -2274,9 +2268,21 @@
         "CountryCode": "ca"
     },
     {
+        "Id": "tRr8_t7tZ9",
+        "Industry": "Oil & Energy",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "1eK0PNgAK8",
         "Industry": "Aviation & Aerospace",
         "Location": "San Francisco Bay Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "KHYkJ-QrcO",
+        "Industry": "Higher Education",
+        "Location": "Greater Seattle Area",
         "CountryCode": "us"
     },
     {
@@ -2289,12 +2295,6 @@
         "Id": "uO1-Pc22VY",
         "Industry": "Information Technology and Services",
         "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "KHYkJ-QrcO",
-        "Industry": "Higher Education",
-        "Location": "Greater Seattle Area",
         "CountryCode": "us"
     },
     {
@@ -2322,12 +2322,6 @@
         "CountryCode": "us"
     },
     {
-        "Id": "tRr8_t7tZ9",
-        "Industry": "Oil & Energy",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "8o-HMKycAC",
         "Industry": "Information Technology and Services",
         "Location": "Houston, Texas Area",
@@ -2352,13 +2346,13 @@
         "CountryCode": "us"
     },
     {
-        "Id": "_SxgHrvx-C",
+        "Id": "LaXIDdCqjs",
         "Industry": "Information Technology and Services",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
-        "Id": "LaXIDdCqjs",
+        "Id": "_SxgHrvx-C",
         "Industry": "Information Technology and Services",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
@@ -2382,6 +2376,12 @@
         "CountryCode": "us"
     },
     {
+        "Id": "wnbLelR4aU",
+        "Industry": "Utilities",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "gVxlgVyEGp",
         "Industry": "Oil & Energy",
         "Location": "Houston, Texas Area",
@@ -2391,12 +2391,6 @@
         "Id": "qkCS3STS4P",
         "Industry": "Information Technology and Services",
         "Location": "Greater Los Angeles Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "wnbLelR4aU",
-        "Industry": "Utilities",
-        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -2472,14 +2466,8 @@
         "CountryCode": "us"
     },
     {
-        "Id": "Gq2qKLBe5I",
-        "Industry": "Computer Software",
-        "Location": "Austin, Texas Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "TZ_NX4Fdf3",
-        "Industry": "Marketing and Advertising",
+        "Id": "xs0-cddEwp",
+        "Industry": "Oil & Energy",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
@@ -2490,21 +2478,27 @@
         "CountryCode": "us"
     },
     {
-        "Id": "xs0-cddEwp",
-        "Industry": "Oil & Energy",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "2BoTKoitFv",
         "Industry": "Defense & Space",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
+        "Id": "Gq2qKLBe5I",
+        "Industry": "Computer Software",
+        "Location": "Austin, Texas Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "lAAJuSMjBS",
         "Industry": "Graphic Design",
         "Location": "Greater Seattle Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "TZ_NX4Fdf3",
+        "Industry": "Marketing and Advertising",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -2532,6 +2526,12 @@
         "CountryCode": "us"
     },
     {
+        "Id": "4_uiEwDAnl",
+        "Industry": "Oil & Energy",
+        "Location": "Macon, Georgia Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "ZN5OodXknH",
         "Industry": "Information Technology and Services",
         "Location": "Dallas/Fort Worth Area",
@@ -2544,9 +2544,9 @@
         "CountryCode": "us"
     },
     {
-        "Id": "4_uiEwDAnl",
-        "Industry": "Oil & Energy",
-        "Location": "Macon, Georgia Area",
+        "Id": "-uqYo5aXmL",
+        "Industry": "Accounting",
+        "Location": "Greater Seattle Area",
         "CountryCode": "us"
     },
     {
@@ -2562,12 +2562,6 @@
         "CountryCode": "us"
     },
     {
-        "Id": "-uqYo5aXmL",
-        "Industry": "Accounting",
-        "Location": "Greater Seattle Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "oKqIFu2daF",
         "Industry": "Computer Software",
         "Location": "Greater Seattle Area",
@@ -2580,12 +2574,6 @@
         "CountryCode": "us"
     },
     {
-        "Id": "ZJ4pA1-R1F",
-        "Industry": "Aviation & Aerospace",
-        "Location": "Phoenix, Arizona Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "mLB5ZEK1r_",
         "Industry": "Computer Software",
         "Location": "Houston, Texas Area",
@@ -2595,6 +2583,12 @@
         "Id": "Cod7tIgDLW",
         "Industry": "Computer Software",
         "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "ZJ4pA1-R1F",
+        "Industry": "Aviation & Aerospace",
+        "Location": "Phoenix, Arizona Area",
         "CountryCode": "us"
     },
     {
@@ -2616,14 +2610,20 @@
         "CountryCode": "us"
     },
     {
+        "Id": "mw2fYVEmJ-",
+        "Industry": "Utilities",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "5z6Ml4B9PN",
         "Industry": "Entertainment",
         "Location": "Las Vegas, Nevada Area",
         "CountryCode": "us"
     },
     {
-        "Id": "mw2fYVEmJ-",
-        "Industry": "Utilities",
+        "Id": "nRrRqLMN4E",
+        "Industry": "Information Technology and Services",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
@@ -2637,12 +2637,6 @@
         "Id": "CBxdkqJLJ3",
         "Industry": "Information Technology and Services",
         "Location": "Greater Chicago Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "nRrRqLMN4E",
-        "Industry": "Information Technology and Services",
-        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -2664,6 +2658,12 @@
         "CountryCode": "us"
     },
     {
+        "Id": "oLzJLUTeWP",
+        "Industry": "Aviation & Aerospace",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "G2MT_7RrwG",
         "Industry": "Information Technology and Services",
         "Location": "Houston, Texas Area",
@@ -2672,12 +2672,6 @@
     {
         "Id": "mS-K4w2XeN",
         "Industry": "Oil & Energy",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "oLzJLUTeWP",
-        "Industry": "Aviation & Aerospace",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
@@ -2724,6 +2718,12 @@
         "CountryCode": "us"
     },
     {
+        "Id": "uGphqNkxCO",
+        "Industry": "Semiconductors",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "iQbLgXlQLV",
         "Industry": "Religious Institutions",
         "Location": "Greater Seattle Area",
@@ -2736,14 +2736,14 @@
         "CountryCode": "us"
     },
     {
-        "Id": "uGphqNkxCO",
-        "Industry": "Semiconductors",
+        "Id": "J6Wc2EghrB",
+        "Industry": "Logistics and Supply Chain",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
-        "Id": "J6Wc2EghrB",
-        "Industry": "Logistics and Supply Chain",
+        "Id": "R7SB3c3fYJ",
+        "Industry": "Financial Services",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
@@ -2784,21 +2784,15 @@
         "CountryCode": "us"
     },
     {
-        "Id": "Khn2DElz4O",
-        "Industry": "Aviation & Aerospace",
-        "Location": "Greater Denver Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "R7SB3c3fYJ",
-        "Industry": "Financial Services",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "SEIVtwYJoq",
         "Industry": "Aviation & Aerospace",
         "Location": "Phoenix, Arizona Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "Khn2DElz4O",
+        "Industry": "Aviation & Aerospace",
+        "Location": "Greater Denver Area",
         "CountryCode": "us"
     },
     {
@@ -2820,6 +2814,12 @@
         "CountryCode": "us"
     },
     {
+        "Id": "9imyF5m-Rh",
+        "Industry": "Oil & Energy",
+        "Location": "Houston, Texas Area",
+        "CountryCode": "us"
+    },
+    {
         "Id": "kUor4equ56",
         "Industry": "Information Technology and Services",
         "Location": "United States",
@@ -2828,12 +2828,6 @@
     {
         "Id": "YYAq2ZLp_4",
         "Industry": "Chemicals",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
-        "Id": "9imyF5m-Rh",
-        "Industry": "Oil & Energy",
         "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
@@ -2856,15 +2850,15 @@
         "CountryCode": "us"
     },
     {
-        "Id": "sZ64V1sJdl",
-        "Industry": "Oil & Energy",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "Zjwy1TBB40",
         "Industry": "Higher Education",
         "Location": "Portland, Oregon Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "sZ64V1sJdl",
+        "Industry": "Oil & Energy",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -2874,15 +2868,15 @@
         "CountryCode": "us"
     },
     {
-        "Id": "YQpmwUcmqk",
-        "Industry": "Information Technology and Services",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "nsQW4BvPVN",
         "Industry": "Aviation & Aerospace",
         "Location": "Cedar Rapids, Iowa Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "YQpmwUcmqk",
+        "Industry": "Information Technology and Services",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -2946,12 +2940,6 @@
         "CountryCode": "us"
     },
     {
-        "Id": "ytjrl8fO4K",
-        "Industry": "Computer Software",
-        "Location": "Houston, Texas Area",
-        "CountryCode": "us"
-    },
-    {
         "Id": "reSbmgecIC",
         "Industry": "Computer Software",
         "Location": "Yakima, Washington Area",
@@ -2961,6 +2949,12 @@
         "Id": "-H-fWUnz0c",
         "Industry": "Aviation & Aerospace",
         "Location": "Greater St. Louis Area",
+        "CountryCode": "us"
+    },
+    {
+        "Id": "ytjrl8fO4K",
+        "Industry": "Computer Software",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
@@ -2988,15 +2982,15 @@
         "CountryCode": "us"
     },
     {
-        "Id": "XHqiNYmq1t",
-        "Industry": "Civil Engineering",
-        "Location": "Rapid City, South Dakota Area",
+        "Id": "QF6yDbZ0cD",
+        "Industry": "Management Consulting",
+        "Location": "Houston, Texas Area",
         "CountryCode": "us"
     },
     {
-        "Id": "DQEVPEGgwq",
-        "Industry": "Oil & Energy",
-        "Location": "Greater Minneapolis-St. Paul Area",
+        "Id": "XHqiNYmq1t",
+        "Industry": "Civil Engineering",
+        "Location": "Rapid City, South Dakota Area",
         "CountryCode": "us"
     },
     {
@@ -3006,9 +3000,9 @@
         "CountryCode": "us"
     },
     {
-        "Id": "QF6yDbZ0cD",
-        "Industry": "Management Consulting",
-        "Location": "Houston, Texas Area",
+        "Id": "DQEVPEGgwq",
+        "Industry": "Oil & Energy",
+        "Location": "Greater Minneapolis-St. Paul Area",
         "CountryCode": "us"
     },
     {
