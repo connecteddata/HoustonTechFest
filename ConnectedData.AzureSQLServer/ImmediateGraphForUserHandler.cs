@@ -29,7 +29,7 @@ namespace ConnectedData.AzureSQLServer
                     Group = "Person", 
                     Id = profile.Id, 
                     Index = 0, 
-                    Label = String.Format("{0} {1}", String.IsNullOrEmpty(profile.FirstName) ? string.Empty : profile.FirstName, string.IsNullOrEmpty(profile.LastName) ? string.Empty, profile.LastName) 
+                    Label = String.Format("{0} {1}", String.IsNullOrEmpty(profile.FirstName) ? string.Empty : profile.FirstName, string.IsNullOrEmpty(profile.LastName) ? string.Empty : profile.LastName) 
                 });
                 
                 vertices.AddRange(
